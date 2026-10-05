@@ -1,0 +1,7472 @@
+[
+{
+"text": "I'm sorry for being rude earlier",
+"category": "apology",
+"base": 0,
+"source": "bank"
+},
+{
+"text": "Hey, i'm sorry for being rude earlier",
+"category": "apology",
+"base": 0,
+"source": "bank"
+},
+{
+"text": "I'm sorry for being rude earlier!!",
+"category": "apology",
+"base": 0,
+"source": "bank"
+},
+{
+"text": "Um... i'm sorry for being rude earlier",
+"category": "apology",
+"base": 0,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm sorry for being rude earlier",
+"category": "apology",
+"base": 0,
+"source": "bank"
+},
+{
+"text": "I didn't mean what I said, I apologize",
+"category": "apology",
+"base": 1,
+"source": "bank"
+},
+{
+"text": "Hey, i didn't mean what I said, I apologize",
+"category": "apology",
+"base": 1,
+"source": "bank"
+},
+{
+"text": "I didn't mean what I said, I apologize!!",
+"category": "apology",
+"base": 1,
+"source": "bank"
+},
+{
+"text": "Um... i didn't mean what I said, I apologize",
+"category": "apology",
+"base": 1,
+"source": "bank"
+},
+{
+"text": "Honestly, i didn't mean what I said, I apologize",
+"category": "apology",
+"base": 1,
+"source": "bank"
+},
+{
+"text": "Sorry I snapped at you",
+"category": "apology",
+"base": 2,
+"source": "bank"
+},
+{
+"text": "Hey, sorry I snapped at you",
+"category": "apology",
+"base": 2,
+"source": "bank"
+},
+{
+"text": "Sorry I snapped at you!!",
+"category": "apology",
+"base": 2,
+"source": "bank"
+},
+{
+"text": "Um... sorry I snapped at you",
+"category": "apology",
+"base": 2,
+"source": "bank"
+},
+{
+"text": "Honestly, sorry I snapped at you",
+"category": "apology",
+"base": 2,
+"source": "bank"
+},
+{
+"text": "Forgive me, I was out of line",
+"category": "apology",
+"base": 3,
+"source": "bank"
+},
+{
+"text": "Hey, forgive me, I was out of line",
+"category": "apology",
+"base": 3,
+"source": "bank"
+},
+{
+"text": "Forgive me, I was out of line!!",
+"category": "apology",
+"base": 3,
+"source": "bank"
+},
+{
+"text": "Um... forgive me, I was out of line",
+"category": "apology",
+"base": 3,
+"source": "bank"
+},
+{
+"text": "Honestly, forgive me, I was out of line",
+"category": "apology",
+"base": 3,
+"source": "bank"
+},
+{
+"text": "I feel bad about how I acted",
+"category": "apology",
+"base": 4,
+"source": "bank"
+},
+{
+"text": "Hey, i feel bad about how I acted",
+"category": "apology",
+"base": 4,
+"source": "bank"
+},
+{
+"text": "I feel bad about how I acted!!",
+"category": "apology",
+"base": 4,
+"source": "bank"
+},
+{
+"text": "Um... i feel bad about how I acted",
+"category": "apology",
+"base": 4,
+"source": "bank"
+},
+{
+"text": "Honestly, i feel bad about how I acted",
+"category": "apology",
+"base": 4,
+"source": "bank"
+},
+{
+"text": "I'm sorry if I hurt your feelings",
+"category": "apology",
+"base": 5,
+"source": "bank"
+},
+{
+"text": "Hey, i'm sorry if I hurt your feelings",
+"category": "apology",
+"base": 5,
+"source": "bank"
+},
+{
+"text": "I'm sorry if I hurt your feelings!!",
+"category": "apology",
+"base": 5,
+"source": "bank"
+},
+{
+"text": "Um... i'm sorry if I hurt your feelings",
+"category": "apology",
+"base": 5,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm sorry if I hurt your feelings",
+"category": "apology",
+"base": 5,
+"source": "bank"
+},
+{
+"text": "I was wrong and I'm sorry",
+"category": "apology",
+"base": 6,
+"source": "bank"
+},
+{
+"text": "Hey, i was wrong and I'm sorry",
+"category": "apology",
+"base": 6,
+"source": "bank"
+},
+{
+"text": "I was wrong and I'm sorry!!",
+"category": "apology",
+"base": 6,
+"source": "bank"
+},
+{
+"text": "Um... i was wrong and I'm sorry",
+"category": "apology",
+"base": 6,
+"source": "bank"
+},
+{
+"text": "Honestly, i was wrong and I'm sorry",
+"category": "apology",
+"base": 6,
+"source": "bank"
+},
+{
+"text": "Can we start over? I'm sorry",
+"category": "apology",
+"base": 7,
+"source": "bank"
+},
+{
+"text": "Hey, can we start over? I'm sorry",
+"category": "apology",
+"base": 7,
+"source": "bank"
+},
+{
+"text": "Can we start over? I'm sorry!!",
+"category": "apology",
+"base": 7,
+"source": "bank"
+},
+{
+"text": "Um... can we start over? I'm sorry",
+"category": "apology",
+"base": 7,
+"source": "bank"
+},
+{
+"text": "Honestly, can we start over? I'm sorry",
+"category": "apology",
+"base": 7,
+"source": "bank"
+},
+{
+"text": "I regret what I did, truly",
+"category": "apology",
+"base": 8,
+"source": "bank"
+},
+{
+"text": "Hey, i regret what I did, truly",
+"category": "apology",
+"base": 8,
+"source": "bank"
+},
+{
+"text": "I regret what I did, truly!!",
+"category": "apology",
+"base": 8,
+"source": "bank"
+},
+{
+"text": "Um... i regret what I did, truly",
+"category": "apology",
+"base": 8,
+"source": "bank"
+},
+{
+"text": "Honestly, i regret what I did, truly",
+"category": "apology",
+"base": 8,
+"source": "bank"
+},
+{
+"text": "I apologize for the trouble I caused",
+"category": "apology",
+"base": 9,
+"source": "bank"
+},
+{
+"text": "Hey, i apologize for the trouble I caused",
+"category": "apology",
+"base": 9,
+"source": "bank"
+},
+{
+"text": "I apologize for the trouble I caused!!",
+"category": "apology",
+"base": 9,
+"source": "bank"
+},
+{
+"text": "Um... i apologize for the trouble I caused",
+"category": "apology",
+"base": 9,
+"source": "bank"
+},
+{
+"text": "Honestly, i apologize for the trouble I caused",
+"category": "apology",
+"base": 9,
+"source": "bank"
+},
+{
+"text": "Sorry, I had a bad day and took it out on you",
+"category": "apology",
+"base": 10,
+"source": "bank"
+},
+{
+"text": "Hey, sorry, I had a bad day and took it out on you",
+"category": "apology",
+"base": 10,
+"source": "bank"
+},
+{
+"text": "Sorry, I had a bad day and took it out on you!!",
+"category": "apology",
+"base": 10,
+"source": "bank"
+},
+{
+"text": "Um... sorry, I had a bad day and took it out on you",
+"category": "apology",
+"base": 10,
+"source": "bank"
+},
+{
+"text": "Honestly, sorry, I had a bad day and took it out on you",
+"category": "apology",
+"base": 10,
+"source": "bank"
+},
+{
+"text": "Please accept my apology",
+"category": "apology",
+"base": 11,
+"source": "bank"
+},
+{
+"text": "Hey, please accept my apology",
+"category": "apology",
+"base": 11,
+"source": "bank"
+},
+{
+"text": "Please accept my apology!!",
+"category": "apology",
+"base": 11,
+"source": "bank"
+},
+{
+"text": "Um... please accept my apology",
+"category": "apology",
+"base": 11,
+"source": "bank"
+},
+{
+"text": "Honestly, please accept my apology",
+"category": "apology",
+"base": 11,
+"source": "bank"
+},
+{
+"text": "I'm clearly the best person in this village",
+"category": "boast",
+"base": 12,
+"source": "bank"
+},
+{
+"text": "Hey, i'm clearly the best person in this village",
+"category": "boast",
+"base": 12,
+"source": "bank"
+},
+{
+"text": "I'm clearly the best person in this village!!",
+"category": "boast",
+"base": 12,
+"source": "bank"
+},
+{
+"text": "Um... i'm clearly the best person in this village",
+"category": "boast",
+"base": 12,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm clearly the best person in this village",
+"category": "boast",
+"base": 12,
+"source": "bank"
+},
+{
+"text": "Nobody here is as smart as I am",
+"category": "boast",
+"base": 13,
+"source": "bank"
+},
+{
+"text": "Hey, nobody here is as smart as I am",
+"category": "boast",
+"base": 13,
+"source": "bank"
+},
+{
+"text": "Nobody here is as smart as I am!!",
+"category": "boast",
+"base": 13,
+"source": "bank"
+},
+{
+"text": "Um... nobody here is as smart as I am",
+"category": "boast",
+"base": 13,
+"source": "bank"
+},
+{
+"text": "Honestly, nobody here is as smart as I am",
+"category": "boast",
+"base": 13,
+"source": "bank"
+},
+{
+"text": "I could beat anyone here in a race",
+"category": "boast",
+"base": 14,
+"source": "bank"
+},
+{
+"text": "Hey, i could beat anyone here in a race",
+"category": "boast",
+"base": 14,
+"source": "bank"
+},
+{
+"text": "I could beat anyone here in a race!!",
+"category": "boast",
+"base": 14,
+"source": "bank"
+},
+{
+"text": "Um... i could beat anyone here in a race",
+"category": "boast",
+"base": 14,
+"source": "bank"
+},
+{
+"text": "Honestly, i could beat anyone here in a race",
+"category": "boast",
+"base": 14,
+"source": "bank"
+},
+{
+"text": "Honestly I'm kind of a big deal",
+"category": "boast",
+"base": 15,
+"source": "bank"
+},
+{
+"text": "Hey, honestly I'm kind of a big deal",
+"category": "boast",
+"base": 15,
+"source": "bank"
+},
+{
+"text": "Honestly I'm kind of a big deal!!",
+"category": "boast",
+"base": 15,
+"source": "bank"
+},
+{
+"text": "Um... honestly I'm kind of a big deal",
+"category": "boast",
+"base": 15,
+"source": "bank"
+},
+{
+"text": "Honestly, honestly I'm kind of a big deal",
+"category": "boast",
+"base": 15,
+"source": "bank"
+},
+{
+"text": "I'm the most talented person you'll ever meet",
+"category": "boast",
+"base": 16,
+"source": "bank"
+},
+{
+"text": "Hey, i'm the most talented person you'll ever meet",
+"category": "boast",
+"base": 16,
+"source": "bank"
+},
+{
+"text": "I'm the most talented person you'll ever meet!!",
+"category": "boast",
+"base": 16,
+"source": "bank"
+},
+{
+"text": "Um... i'm the most talented person you'll ever meet",
+"category": "boast",
+"base": 16,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm the most talented person you'll ever meet",
+"category": "boast",
+"base": 16,
+"source": "bank"
+},
+{
+"text": "I never lose at anything",
+"category": "boast",
+"base": 17,
+"source": "bank"
+},
+{
+"text": "Hey, i never lose at anything",
+"category": "boast",
+"base": 17,
+"source": "bank"
+},
+{
+"text": "I never lose at anything!!",
+"category": "boast",
+"base": 17,
+"source": "bank"
+},
+{
+"text": "Um... i never lose at anything",
+"category": "boast",
+"base": 17,
+"source": "bank"
+},
+{
+"text": "Honestly, i never lose at anything",
+"category": "boast",
+"base": 17,
+"source": "bank"
+},
+{
+"text": "I don't need anyone's help, I'm too good",
+"category": "boast",
+"base": 18,
+"source": "bank"
+},
+{
+"text": "Hey, i don't need anyone's help, I'm too good",
+"category": "boast",
+"base": 18,
+"source": "bank"
+},
+{
+"text": "I don't need anyone's help, I'm too good!!",
+"category": "boast",
+"base": 18,
+"source": "bank"
+},
+{
+"text": "Um... i don't need anyone's help, I'm too good",
+"category": "boast",
+"base": 18,
+"source": "bank"
+},
+{
+"text": "Honestly, i don't need anyone's help, I'm too good",
+"category": "boast",
+"base": 18,
+"source": "bank"
+},
+{
+"text": "Everyone envies me and I get it",
+"category": "boast",
+"base": 19,
+"source": "bank"
+},
+{
+"text": "Hey, everyone envies me and I get it",
+"category": "boast",
+"base": 19,
+"source": "bank"
+},
+{
+"text": "Everyone envies me and I get it!!",
+"category": "boast",
+"base": 19,
+"source": "bank"
+},
+{
+"text": "Um... everyone envies me and I get it",
+"category": "boast",
+"base": 19,
+"source": "bank"
+},
+{
+"text": "Honestly, everyone envies me and I get it",
+"category": "boast",
+"base": 19,
+"source": "bank"
+},
+{
+"text": "I'm better looking than all of you",
+"category": "boast",
+"base": 20,
+"source": "bank"
+},
+{
+"text": "Hey, i'm better looking than all of you",
+"category": "boast",
+"base": 20,
+"source": "bank"
+},
+{
+"text": "I'm better looking than all of you!!",
+"category": "boast",
+"base": 20,
+"source": "bank"
+},
+{
+"text": "Um... i'm better looking than all of you",
+"category": "boast",
+"base": 20,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm better looking than all of you",
+"category": "boast",
+"base": 20,
+"source": "bank"
+},
+{
+"text": "I basically run this place",
+"category": "boast",
+"base": 21,
+"source": "bank"
+},
+{
+"text": "Hey, i basically run this place",
+"category": "boast",
+"base": 21,
+"source": "bank"
+},
+{
+"text": "I basically run this place!!",
+"category": "boast",
+"base": 21,
+"source": "bank"
+},
+{
+"text": "Um... i basically run this place",
+"category": "boast",
+"base": 21,
+"source": "bank"
+},
+{
+"text": "Honestly, i basically run this place",
+"category": "boast",
+"base": 21,
+"source": "bank"
+},
+{
+"text": "This village is kind of boring",
+"category": "complaint",
+"base": 22,
+"source": "bank"
+},
+{
+"text": "Hey, this village is kind of boring",
+"category": "complaint",
+"base": 22,
+"source": "bank"
+},
+{
+"text": "This village is kind of boring!!",
+"category": "complaint",
+"base": 22,
+"source": "bank"
+},
+{
+"text": "Um... this village is kind of boring",
+"category": "complaint",
+"base": 22,
+"source": "bank"
+},
+{
+"text": "Honestly, this village is kind of boring",
+"category": "complaint",
+"base": 22,
+"source": "bank"
+},
+{
+"text": "Honestly I'm a little tired of being here",
+"category": "complaint",
+"base": 23,
+"source": "bank"
+},
+{
+"text": "Hey, honestly I'm a little tired of being here",
+"category": "complaint",
+"base": 23,
+"source": "bank"
+},
+{
+"text": "Honestly I'm a little tired of being here!!",
+"category": "complaint",
+"base": 23,
+"source": "bank"
+},
+{
+"text": "Um... honestly I'm a little tired of being here",
+"category": "complaint",
+"base": 23,
+"source": "bank"
+},
+{
+"text": "Honestly, honestly I'm a little tired of being here",
+"category": "complaint",
+"base": 23,
+"source": "bank"
+},
+{
+"text": "Nothing ever happens around here",
+"category": "complaint",
+"base": 24,
+"source": "bank"
+},
+{
+"text": "Hey, nothing ever happens around here",
+"category": "complaint",
+"base": 24,
+"source": "bank"
+},
+{
+"text": "Nothing ever happens around here!!",
+"category": "complaint",
+"base": 24,
+"source": "bank"
+},
+{
+"text": "Um... nothing ever happens around here",
+"category": "complaint",
+"base": 24,
+"source": "bank"
+},
+{
+"text": "Honestly, nothing ever happens around here",
+"category": "complaint",
+"base": 24,
+"source": "bank"
+},
+{
+"text": "It's too hot today and I'm grumpy",
+"category": "complaint",
+"base": 25,
+"source": "bank"
+},
+{
+"text": "Hey, it's too hot today and I'm grumpy",
+"category": "complaint",
+"base": 25,
+"source": "bank"
+},
+{
+"text": "It's too hot today and I'm grumpy!!",
+"category": "complaint",
+"base": 25,
+"source": "bank"
+},
+{
+"text": "Um... it's too hot today and I'm grumpy",
+"category": "complaint",
+"base": 25,
+"source": "bank"
+},
+{
+"text": "Honestly, it's too hot today and I'm grumpy",
+"category": "complaint",
+"base": 25,
+"source": "bank"
+},
+{
+"text": "The food around here is pretty bland",
+"category": "complaint",
+"base": 26,
+"source": "bank"
+},
+{
+"text": "Hey, the food around here is pretty bland",
+"category": "complaint",
+"base": 26,
+"source": "bank"
+},
+{
+"text": "The food around here is pretty bland!!",
+"category": "complaint",
+"base": 26,
+"source": "bank"
+},
+{
+"text": "Um... the food around here is pretty bland",
+"category": "complaint",
+"base": 26,
+"source": "bank"
+},
+{
+"text": "Honestly, the food around here is pretty bland",
+"category": "complaint",
+"base": 26,
+"source": "bank"
+},
+{
+"text": "I wish people would be more interesting",
+"category": "complaint",
+"base": 27,
+"source": "bank"
+},
+{
+"text": "Hey, i wish people would be more interesting",
+"category": "complaint",
+"base": 27,
+"source": "bank"
+},
+{
+"text": "I wish people would be more interesting!!",
+"category": "complaint",
+"base": 27,
+"source": "bank"
+},
+{
+"text": "Um... i wish people would be more interesting",
+"category": "complaint",
+"base": 27,
+"source": "bank"
+},
+{
+"text": "Honestly, i wish people would be more interesting",
+"category": "complaint",
+"base": 27,
+"source": "bank"
+},
+{
+"text": "I'm not having a great day",
+"category": "complaint",
+"base": 28,
+"source": "bank"
+},
+{
+"text": "Hey, i'm not having a great day",
+"category": "complaint",
+"base": 28,
+"source": "bank"
+},
+{
+"text": "I'm not having a great day!!",
+"category": "complaint",
+"base": 28,
+"source": "bank"
+},
+{
+"text": "Um... i'm not having a great day",
+"category": "complaint",
+"base": 28,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm not having a great day",
+"category": "complaint",
+"base": 28,
+"source": "bank"
+},
+{
+"text": "This place could use a lot of improvement",
+"category": "complaint",
+"base": 29,
+"source": "bank"
+},
+{
+"text": "Hey, this place could use a lot of improvement",
+"category": "complaint",
+"base": 29,
+"source": "bank"
+},
+{
+"text": "This place could use a lot of improvement!!",
+"category": "complaint",
+"base": 29,
+"source": "bank"
+},
+{
+"text": "Um... this place could use a lot of improvement",
+"category": "complaint",
+"base": 29,
+"source": "bank"
+},
+{
+"text": "Honestly, this place could use a lot of improvement",
+"category": "complaint",
+"base": 29,
+"source": "bank"
+},
+{
+"text": "I'm annoyed that nobody listens to me",
+"category": "complaint",
+"base": 30,
+"source": "bank"
+},
+{
+"text": "Hey, i'm annoyed that nobody listens to me",
+"category": "complaint",
+"base": 30,
+"source": "bank"
+},
+{
+"text": "I'm annoyed that nobody listens to me!!",
+"category": "complaint",
+"base": 30,
+"source": "bank"
+},
+{
+"text": "Um... i'm annoyed that nobody listens to me",
+"category": "complaint",
+"base": 30,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm annoyed that nobody listens to me",
+"category": "complaint",
+"base": 30,
+"source": "bank"
+},
+{
+"text": "Everything feels a bit pointless lately",
+"category": "complaint",
+"base": 31,
+"source": "bank"
+},
+{
+"text": "Hey, everything feels a bit pointless lately",
+"category": "complaint",
+"base": 31,
+"source": "bank"
+},
+{
+"text": "Everything feels a bit pointless lately!!",
+"category": "complaint",
+"base": 31,
+"source": "bank"
+},
+{
+"text": "Um... everything feels a bit pointless lately",
+"category": "complaint",
+"base": 31,
+"source": "bank"
+},
+{
+"text": "Honestly, everything feels a bit pointless lately",
+"category": "complaint",
+"base": 31,
+"source": "bank"
+},
+{
+"text": "I don't really like it when it's loud",
+"category": "complaint",
+"base": 32,
+"source": "bank"
+},
+{
+"text": "Hey, i don't really like it when it's loud",
+"category": "complaint",
+"base": 32,
+"source": "bank"
+},
+{
+"text": "I don't really like it when it's loud!!",
+"category": "complaint",
+"base": 32,
+"source": "bank"
+},
+{
+"text": "Um... i don't really like it when it's loud",
+"category": "complaint",
+"base": 32,
+"source": "bank"
+},
+{
+"text": "Honestly, i don't really like it when it's loud",
+"category": "complaint",
+"base": 32,
+"source": "bank"
+},
+{
+"text": "Why is everything so slow here?",
+"category": "complaint",
+"base": 33,
+"source": "bank"
+},
+{
+"text": "Hey, why is everything so slow here?",
+"category": "complaint",
+"base": 33,
+"source": "bank"
+},
+{
+"text": "Why is everything so slow here?!!",
+"category": "complaint",
+"base": 33,
+"source": "bank"
+},
+{
+"text": "Um... why is everything so slow here?",
+"category": "complaint",
+"base": 33,
+"source": "bank"
+},
+{
+"text": "Honestly, why is everything so slow here?",
+"category": "complaint",
+"base": 33,
+"source": "bank"
+},
+{
+"text": "You have a really kind face",
+"category": "compliment",
+"base": 34,
+"source": "bank"
+},
+{
+"text": "Hey, you have a really kind face",
+"category": "compliment",
+"base": 34,
+"source": "bank"
+},
+{
+"text": "You have a really kind face!!",
+"category": "compliment",
+"base": 34,
+"source": "bank"
+},
+{
+"text": "Um... you have a really kind face",
+"category": "compliment",
+"base": 34,
+"source": "bank"
+},
+{
+"text": "Honestly, you have a really kind face",
+"category": "compliment",
+"base": 34,
+"source": "bank"
+},
+{
+"text": "I love how calm you always seem",
+"category": "compliment",
+"base": 35,
+"source": "bank"
+},
+{
+"text": "Hey, i love how calm you always seem",
+"category": "compliment",
+"base": 35,
+"source": "bank"
+},
+{
+"text": "I love how calm you always seem!!",
+"category": "compliment",
+"base": 35,
+"source": "bank"
+},
+{
+"text": "Um... i love how calm you always seem",
+"category": "compliment",
+"base": 35,
+"source": "bank"
+},
+{
+"text": "Honestly, i love how calm you always seem",
+"category": "compliment",
+"base": 35,
+"source": "bank"
+},
+{
+"text": "That is a great hat",
+"category": "compliment",
+"base": 36,
+"source": "bank"
+},
+{
+"text": "Hey, that is a great hat",
+"category": "compliment",
+"base": 36,
+"source": "bank"
+},
+{
+"text": "That is a great hat!!",
+"category": "compliment",
+"base": 36,
+"source": "bank"
+},
+{
+"text": "Um... that is a great hat",
+"category": "compliment",
+"base": 36,
+"source": "bank"
+},
+{
+"text": "Honestly, that is a great hat",
+"category": "compliment",
+"base": 36,
+"source": "bank"
+},
+{
+"text": "You are honestly one of my favorite people here",
+"category": "compliment",
+"base": 37,
+"source": "bank"
+},
+{
+"text": "Hey, you are honestly one of my favorite people here",
+"category": "compliment",
+"base": 37,
+"source": "bank"
+},
+{
+"text": "You are honestly one of my favorite people here!!",
+"category": "compliment",
+"base": 37,
+"source": "bank"
+},
+{
+"text": "Um... you are honestly one of my favorite people here",
+"category": "compliment",
+"base": 37,
+"source": "bank"
+},
+{
+"text": "Honestly, you are honestly one of my favorite people here",
+"category": "compliment",
+"base": 37,
+"source": "bank"
+},
+{
+"text": "Your voice is so soothing",
+"category": "compliment",
+"base": 38,
+"source": "bank"
+},
+{
+"text": "Hey, your voice is so soothing",
+"category": "compliment",
+"base": 38,
+"source": "bank"
+},
+{
+"text": "Your voice is so soothing!!",
+"category": "compliment",
+"base": 38,
+"source": "bank"
+},
+{
+"text": "Um... your voice is so soothing",
+"category": "compliment",
+"base": 38,
+"source": "bank"
+},
+{
+"text": "Honestly, your voice is so soothing",
+"category": "compliment",
+"base": 38,
+"source": "bank"
+},
+{
+"text": "You always know what to say",
+"category": "compliment",
+"base": 39,
+"source": "bank"
+},
+{
+"text": "Hey, you always know what to say",
+"category": "compliment",
+"base": 39,
+"source": "bank"
+},
+{
+"text": "You always know what to say!!",
+"category": "compliment",
+"base": 39,
+"source": "bank"
+},
+{
+"text": "Um... you always know what to say",
+"category": "compliment",
+"base": 39,
+"source": "bank"
+},
+{
+"text": "Honestly, you always know what to say",
+"category": "compliment",
+"base": 39,
+"source": "bank"
+},
+{
+"text": "I admire how hard you work",
+"category": "compliment",
+"base": 40,
+"source": "bank"
+},
+{
+"text": "Hey, i admire how hard you work",
+"category": "compliment",
+"base": 40,
+"source": "bank"
+},
+{
+"text": "I admire how hard you work!!",
+"category": "compliment",
+"base": 40,
+"source": "bank"
+},
+{
+"text": "Um... i admire how hard you work",
+"category": "compliment",
+"base": 40,
+"source": "bank"
+},
+{
+"text": "Honestly, i admire how hard you work",
+"category": "compliment",
+"base": 40,
+"source": "bank"
+},
+{
+"text": "You have such a nice smile",
+"category": "compliment",
+"base": 41,
+"source": "bank"
+},
+{
+"text": "Hey, you have such a nice smile",
+"category": "compliment",
+"base": 41,
+"source": "bank"
+},
+{
+"text": "You have such a nice smile!!",
+"category": "compliment",
+"base": 41,
+"source": "bank"
+},
+{
+"text": "Um... you have such a nice smile",
+"category": "compliment",
+"base": 41,
+"source": "bank"
+},
+{
+"text": "Honestly, you have such a nice smile",
+"category": "compliment",
+"base": 41,
+"source": "bank"
+},
+{
+"text": "This village is better with you in it",
+"category": "compliment",
+"base": 42,
+"source": "bank"
+},
+{
+"text": "Hey, this village is better with you in it",
+"category": "compliment",
+"base": 42,
+"source": "bank"
+},
+{
+"text": "This village is better with you in it!!",
+"category": "compliment",
+"base": 42,
+"source": "bank"
+},
+{
+"text": "Um... this village is better with you in it",
+"category": "compliment",
+"base": 42,
+"source": "bank"
+},
+{
+"text": "Honestly, this village is better with you in it",
+"category": "compliment",
+"base": 42,
+"source": "bank"
+},
+{
+"text": "You look wonderful today",
+"category": "compliment",
+"base": 43,
+"source": "bank"
+},
+{
+"text": "Hey, you look wonderful today",
+"category": "compliment",
+"base": 43,
+"source": "bank"
+},
+{
+"text": "You look wonderful today!!",
+"category": "compliment",
+"base": 43,
+"source": "bank"
+},
+{
+"text": "Um... you look wonderful today",
+"category": "compliment",
+"base": 43,
+"source": "bank"
+},
+{
+"text": "Honestly, you look wonderful today",
+"category": "compliment",
+"base": 43,
+"source": "bank"
+},
+{
+"text": "I think you're really clever",
+"category": "compliment",
+"base": 44,
+"source": "bank"
+},
+{
+"text": "Hey, i think you're really clever",
+"category": "compliment",
+"base": 44,
+"source": "bank"
+},
+{
+"text": "I think you're really clever!!",
+"category": "compliment",
+"base": 44,
+"source": "bank"
+},
+{
+"text": "Um... i think you're really clever",
+"category": "compliment",
+"base": 44,
+"source": "bank"
+},
+{
+"text": "Honestly, i think you're really clever",
+"category": "compliment",
+"base": 44,
+"source": "bank"
+},
+{
+"text": "You make everyone feel welcome",
+"category": "compliment",
+"base": 45,
+"source": "bank"
+},
+{
+"text": "Hey, you make everyone feel welcome",
+"category": "compliment",
+"base": 45,
+"source": "bank"
+},
+{
+"text": "You make everyone feel welcome!!",
+"category": "compliment",
+"base": 45,
+"source": "bank"
+},
+{
+"text": "Um... you make everyone feel welcome",
+"category": "compliment",
+"base": 45,
+"source": "bank"
+},
+{
+"text": "Honestly, you make everyone feel welcome",
+"category": "compliment",
+"base": 45,
+"source": "bank"
+},
+{
+"text": "Your garden must be the prettiest around",
+"category": "compliment",
+"base": 46,
+"source": "bank"
+},
+{
+"text": "Hey, your garden must be the prettiest around",
+"category": "compliment",
+"base": 46,
+"source": "bank"
+},
+{
+"text": "Your garden must be the prettiest around!!",
+"category": "compliment",
+"base": 46,
+"source": "bank"
+},
+{
+"text": "Um... your garden must be the prettiest around",
+"category": "compliment",
+"base": 46,
+"source": "bank"
+},
+{
+"text": "Honestly, your garden must be the prettiest around",
+"category": "compliment",
+"base": 46,
+"source": "bank"
+},
+{
+"text": "I'm glad I met you",
+"category": "compliment",
+"base": 47,
+"source": "bank"
+},
+{
+"text": "Hey, i'm glad I met you",
+"category": "compliment",
+"base": 47,
+"source": "bank"
+},
+{
+"text": "I'm glad I met you!!",
+"category": "compliment",
+"base": 47,
+"source": "bank"
+},
+{
+"text": "Um... i'm glad I met you",
+"category": "compliment",
+"base": 47,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm glad I met you",
+"category": "compliment",
+"base": 47,
+"source": "bank"
+},
+{
+"text": "You look stunning today",
+"category": "flirt",
+"base": 48,
+"source": "bank"
+},
+{
+"text": "Hey, you look stunning today",
+"category": "flirt",
+"base": 48,
+"source": "bank"
+},
+{
+"text": "You look stunning today!!",
+"category": "flirt",
+"base": 48,
+"source": "bank"
+},
+{
+"text": "Um... you look stunning today",
+"category": "flirt",
+"base": 48,
+"source": "bank"
+},
+{
+"text": "Honestly, you look stunning today",
+"category": "flirt",
+"base": 48,
+"source": "bank"
+},
+{
+"text": "Want to get dinner with me sometime?",
+"category": "flirt",
+"base": 49,
+"source": "bank"
+},
+{
+"text": "Hey, want to get dinner with me sometime?",
+"category": "flirt",
+"base": 49,
+"source": "bank"
+},
+{
+"text": "Want to get dinner with me sometime?!!",
+"category": "flirt",
+"base": 49,
+"source": "bank"
+},
+{
+"text": "Um... want to get dinner with me sometime?",
+"category": "flirt",
+"base": 49,
+"source": "bank"
+},
+{
+"text": "Honestly, want to get dinner with me sometime?",
+"category": "flirt",
+"base": 49,
+"source": "bank"
+},
+{
+"text": "I can't stop thinking about you",
+"category": "flirt",
+"base": 50,
+"source": "bank"
+},
+{
+"text": "Hey, i can't stop thinking about you",
+"category": "flirt",
+"base": 50,
+"source": "bank"
+},
+{
+"text": "I can't stop thinking about you!!",
+"category": "flirt",
+"base": 50,
+"source": "bank"
+},
+{
+"text": "Um... i can't stop thinking about you",
+"category": "flirt",
+"base": 50,
+"source": "bank"
+},
+{
+"text": "Honestly, i can't stop thinking about you",
+"category": "flirt",
+"base": 50,
+"source": "bank"
+},
+{
+"text": "Your eyes are really something",
+"category": "flirt",
+"base": 51,
+"source": "bank"
+},
+{
+"text": "Hey, your eyes are really something",
+"category": "flirt",
+"base": 51,
+"source": "bank"
+},
+{
+"text": "Your eyes are really something!!",
+"category": "flirt",
+"base": 51,
+"source": "bank"
+},
+{
+"text": "Um... your eyes are really something",
+"category": "flirt",
+"base": 51,
+"source": "bank"
+},
+{
+"text": "Honestly, your eyes are really something",
+"category": "flirt",
+"base": 51,
+"source": "bank"
+},
+{
+"text": "Is it hot out here or is it you?",
+"category": "flirt",
+"base": 52,
+"source": "bank"
+},
+{
+"text": "Hey, is it hot out here or is it you?",
+"category": "flirt",
+"base": 52,
+"source": "bank"
+},
+{
+"text": "Is it hot out here or is it you?!!",
+"category": "flirt",
+"base": 52,
+"source": "bank"
+},
+{
+"text": "Um... is it hot out here or is it you?",
+"category": "flirt",
+"base": 52,
+"source": "bank"
+},
+{
+"text": "Honestly, is it hot out here or is it you?",
+"category": "flirt",
+"base": 52,
+"source": "bank"
+},
+{
+"text": "I'd love to take you out for a walk at sunset",
+"category": "flirt",
+"base": 53,
+"source": "bank"
+},
+{
+"text": "Hey, i'd love to take you out for a walk at sunset",
+"category": "flirt",
+"base": 53,
+"source": "bank"
+},
+{
+"text": "I'd love to take you out for a walk at sunset!!",
+"category": "flirt",
+"base": 53,
+"source": "bank"
+},
+{
+"text": "Um... i'd love to take you out for a walk at sunset",
+"category": "flirt",
+"base": 53,
+"source": "bank"
+},
+{
+"text": "Honestly, i'd love to take you out for a walk at sunset",
+"category": "flirt",
+"base": 53,
+"source": "bank"
+},
+{
+"text": "You make my heart skip",
+"category": "flirt",
+"base": 54,
+"source": "bank"
+},
+{
+"text": "Hey, you make my heart skip",
+"category": "flirt",
+"base": 54,
+"source": "bank"
+},
+{
+"text": "You make my heart skip!!",
+"category": "flirt",
+"base": 54,
+"source": "bank"
+},
+{
+"text": "Um... you make my heart skip",
+"category": "flirt",
+"base": 54,
+"source": "bank"
+},
+{
+"text": "Honestly, you make my heart skip",
+"category": "flirt",
+"base": 54,
+"source": "bank"
+},
+{
+"text": "I think we'd make a great pair",
+"category": "flirt",
+"base": 55,
+"source": "bank"
+},
+{
+"text": "Hey, i think we'd make a great pair",
+"category": "flirt",
+"base": 55,
+"source": "bank"
+},
+{
+"text": "I think we'd make a great pair!!",
+"category": "flirt",
+"base": 55,
+"source": "bank"
+},
+{
+"text": "Um... i think we'd make a great pair",
+"category": "flirt",
+"base": 55,
+"source": "bank"
+},
+{
+"text": "Honestly, i think we'd make a great pair",
+"category": "flirt",
+"base": 55,
+"source": "bank"
+},
+{
+"text": "Would you like to watch the stars with me?",
+"category": "flirt",
+"base": 56,
+"source": "bank"
+},
+{
+"text": "Hey, would you like to watch the stars with me?",
+"category": "flirt",
+"base": 56,
+"source": "bank"
+},
+{
+"text": "Would you like to watch the stars with me?!!",
+"category": "flirt",
+"base": 56,
+"source": "bank"
+},
+{
+"text": "Um... would you like to watch the stars with me?",
+"category": "flirt",
+"base": 56,
+"source": "bank"
+},
+{
+"text": "Honestly, would you like to watch the stars with me?",
+"category": "flirt",
+"base": 56,
+"source": "bank"
+},
+{
+"text": "You are the best part of my day",
+"category": "flirt",
+"base": 57,
+"source": "bank"
+},
+{
+"text": "Hey, you are the best part of my day",
+"category": "flirt",
+"base": 57,
+"source": "bank"
+},
+{
+"text": "You are the best part of my day!!",
+"category": "flirt",
+"base": 57,
+"source": "bank"
+},
+{
+"text": "Um... you are the best part of my day",
+"category": "flirt",
+"base": 57,
+"source": "bank"
+},
+{
+"text": "Honestly, you are the best part of my day",
+"category": "flirt",
+"base": 57,
+"source": "bank"
+},
+{
+"text": "How was your day?",
+"category": "friendly_question",
+"base": 58,
+"source": "bank"
+},
+{
+"text": "Hey, how was your day?",
+"category": "friendly_question",
+"base": 58,
+"source": "bank"
+},
+{
+"text": "How was your day?!!",
+"category": "friendly_question",
+"base": 58,
+"source": "bank"
+},
+{
+"text": "Um... how was your day?",
+"category": "friendly_question",
+"base": 58,
+"source": "bank"
+},
+{
+"text": "Honestly, how was your day?",
+"category": "friendly_question",
+"base": 58,
+"source": "bank"
+},
+{
+"text": "What's your favorite thing about living here?",
+"category": "friendly_question",
+"base": 59,
+"source": "bank"
+},
+{
+"text": "Hey, what's your favorite thing about living here?",
+"category": "friendly_question",
+"base": 59,
+"source": "bank"
+},
+{
+"text": "What's your favorite thing about living here?!!",
+"category": "friendly_question",
+"base": 59,
+"source": "bank"
+},
+{
+"text": "Um... what's your favorite thing about living here?",
+"category": "friendly_question",
+"base": 59,
+"source": "bank"
+},
+{
+"text": "Honestly, what's your favorite thing about living here?",
+"category": "friendly_question",
+"base": 59,
+"source": "bank"
+},
+{
+"text": "Have you eaten yet?",
+"category": "friendly_question",
+"base": 60,
+"source": "bank"
+},
+{
+"text": "Hey, have you eaten yet?",
+"category": "friendly_question",
+"base": 60,
+"source": "bank"
+},
+{
+"text": "Have you eaten yet?!!",
+"category": "friendly_question",
+"base": 60,
+"source": "bank"
+},
+{
+"text": "Um... have you eaten yet?",
+"category": "friendly_question",
+"base": 60,
+"source": "bank"
+},
+{
+"text": "Honestly, have you eaten yet?",
+"category": "friendly_question",
+"base": 60,
+"source": "bank"
+},
+{
+"text": "What do you like to do for fun?",
+"category": "friendly_question",
+"base": 61,
+"source": "bank"
+},
+{
+"text": "Hey, what do you like to do for fun?",
+"category": "friendly_question",
+"base": 61,
+"source": "bank"
+},
+{
+"text": "What do you like to do for fun?!!",
+"category": "friendly_question",
+"base": 61,
+"source": "bank"
+},
+{
+"text": "Um... what do you like to do for fun?",
+"category": "friendly_question",
+"base": 61,
+"source": "bank"
+},
+{
+"text": "Honestly, what do you like to do for fun?",
+"category": "friendly_question",
+"base": 61,
+"source": "bank"
+},
+{
+"text": "Is there anything you're looking forward to?",
+"category": "friendly_question",
+"base": 62,
+"source": "bank"
+},
+{
+"text": "Hey, is there anything you're looking forward to?",
+"category": "friendly_question",
+"base": 62,
+"source": "bank"
+},
+{
+"text": "Is there anything you're looking forward to?!!",
+"category": "friendly_question",
+"base": 62,
+"source": "bank"
+},
+{
+"text": "Um... is there anything you're looking forward to?",
+"category": "friendly_question",
+"base": 62,
+"source": "bank"
+},
+{
+"text": "Honestly, is there anything you're looking forward to?",
+"category": "friendly_question",
+"base": 62,
+"source": "bank"
+},
+{
+"text": "How are you holding up lately?",
+"category": "friendly_question",
+"base": 63,
+"source": "bank"
+},
+{
+"text": "Hey, how are you holding up lately?",
+"category": "friendly_question",
+"base": 63,
+"source": "bank"
+},
+{
+"text": "How are you holding up lately?!!",
+"category": "friendly_question",
+"base": 63,
+"source": "bank"
+},
+{
+"text": "Um... how are you holding up lately?",
+"category": "friendly_question",
+"base": 63,
+"source": "bank"
+},
+{
+"text": "Honestly, how are you holding up lately?",
+"category": "friendly_question",
+"base": 63,
+"source": "bank"
+},
+{
+"text": "What's the best thing that happened to you this week?",
+"category": "friendly_question",
+"base": 64,
+"source": "bank"
+},
+{
+"text": "Hey, what's the best thing that happened to you this week?",
+"category": "friendly_question",
+"base": 64,
+"source": "bank"
+},
+{
+"text": "What's the best thing that happened to you this week?!!",
+"category": "friendly_question",
+"base": 64,
+"source": "bank"
+},
+{
+"text": "Um... what's the best thing that happened to you this week?",
+"category": "friendly_question",
+"base": 64,
+"source": "bank"
+},
+{
+"text": "Honestly, what's the best thing that happened to you this week?",
+"category": "friendly_question",
+"base": 64,
+"source": "bank"
+},
+{
+"text": "Do you have any big dreams?",
+"category": "friendly_question",
+"base": 65,
+"source": "bank"
+},
+{
+"text": "Hey, do you have any big dreams?",
+"category": "friendly_question",
+"base": 65,
+"source": "bank"
+},
+{
+"text": "Do you have any big dreams?!!",
+"category": "friendly_question",
+"base": 65,
+"source": "bank"
+},
+{
+"text": "Um... do you have any big dreams?",
+"category": "friendly_question",
+"base": 65,
+"source": "bank"
+},
+{
+"text": "Honestly, do you have any big dreams?",
+"category": "friendly_question",
+"base": 65,
+"source": "bank"
+},
+{
+"text": "What are you working on these days?",
+"category": "friendly_question",
+"base": 66,
+"source": "bank"
+},
+{
+"text": "Hey, what are you working on these days?",
+"category": "friendly_question",
+"base": 66,
+"source": "bank"
+},
+{
+"text": "What are you working on these days?!!",
+"category": "friendly_question",
+"base": 66,
+"source": "bank"
+},
+{
+"text": "Um... what are you working on these days?",
+"category": "friendly_question",
+"base": 66,
+"source": "bank"
+},
+{
+"text": "Honestly, what are you working on these days?",
+"category": "friendly_question",
+"base": 66,
+"source": "bank"
+},
+{
+"text": "Who is your best friend in the village?",
+"category": "friendly_question",
+"base": 67,
+"source": "bank"
+},
+{
+"text": "Hey, who is your best friend in the village?",
+"category": "friendly_question",
+"base": 67,
+"source": "bank"
+},
+{
+"text": "Who is your best friend in the village?!!",
+"category": "friendly_question",
+"base": 67,
+"source": "bank"
+},
+{
+"text": "Um... who is your best friend in the village?",
+"category": "friendly_question",
+"base": 67,
+"source": "bank"
+},
+{
+"text": "Honestly, who is your best friend in the village?",
+"category": "friendly_question",
+"base": 67,
+"source": "bank"
+},
+{
+"text": "What makes you laugh the most?",
+"category": "friendly_question",
+"base": 68,
+"source": "bank"
+},
+{
+"text": "Hey, what makes you laugh the most?",
+"category": "friendly_question",
+"base": 68,
+"source": "bank"
+},
+{
+"text": "What makes you laugh the most?!!",
+"category": "friendly_question",
+"base": 68,
+"source": "bank"
+},
+{
+"text": "Um... what makes you laugh the most?",
+"category": "friendly_question",
+"base": 68,
+"source": "bank"
+},
+{
+"text": "Honestly, what makes you laugh the most?",
+"category": "friendly_question",
+"base": 68,
+"source": "bank"
+},
+{
+"text": "Would you tell me about your family?",
+"category": "friendly_question",
+"base": 69,
+"source": "bank"
+},
+{
+"text": "Hey, would you tell me about your family?",
+"category": "friendly_question",
+"base": 69,
+"source": "bank"
+},
+{
+"text": "Would you tell me about your family?!!",
+"category": "friendly_question",
+"base": 69,
+"source": "bank"
+},
+{
+"text": "Um... would you tell me about your family?",
+"category": "friendly_question",
+"base": 69,
+"source": "bank"
+},
+{
+"text": "Honestly, would you tell me about your family?",
+"category": "friendly_question",
+"base": 69,
+"source": "bank"
+},
+{
+"text": "I heard something terrible about your friend",
+"category": "gossip",
+"base": 70,
+"source": "bank"
+},
+{
+"text": "Hey, i heard something terrible about your friend",
+"category": "gossip",
+"base": 70,
+"source": "bank"
+},
+{
+"text": "I heard something terrible about your friend!!",
+"category": "gossip",
+"base": 70,
+"source": "bank"
+},
+{
+"text": "Um... i heard something terrible about your friend",
+"category": "gossip",
+"base": 70,
+"source": "bank"
+},
+{
+"text": "Honestly, i heard something terrible about your friend",
+"category": "gossip",
+"base": 70,
+"source": "bank"
+},
+{
+"text": "Did you know what they've been saying about you?",
+"category": "gossip",
+"base": 71,
+"source": "bank"
+},
+{
+"text": "Hey, did you know what they've been saying about you?",
+"category": "gossip",
+"base": 71,
+"source": "bank"
+},
+{
+"text": "Did you know what they've been saying about you?!!",
+"category": "gossip",
+"base": 71,
+"source": "bank"
+},
+{
+"text": "Um... did you know what they've been saying about you?",
+"category": "gossip",
+"base": 71,
+"source": "bank"
+},
+{
+"text": "Honestly, did you know what they've been saying about you?",
+"category": "gossip",
+"base": 71,
+"source": "bank"
+},
+{
+"text": "Someone told me a juicy secret about the baker",
+"category": "gossip",
+"base": 72,
+"source": "bank"
+},
+{
+"text": "Hey, someone told me a juicy secret about the baker",
+"category": "gossip",
+"base": 72,
+"source": "bank"
+},
+{
+"text": "Someone told me a juicy secret about the baker!!",
+"category": "gossip",
+"base": 72,
+"source": "bank"
+},
+{
+"text": "Um... someone told me a juicy secret about the baker",
+"category": "gossip",
+"base": 72,
+"source": "bank"
+},
+{
+"text": "Honestly, someone told me a juicy secret about the baker",
+"category": "gossip",
+"base": 72,
+"source": "bank"
+},
+{
+"text": "I'm not supposed to say but I saw something shady",
+"category": "gossip",
+"base": 73,
+"source": "bank"
+},
+{
+"text": "Hey, i'm not supposed to say but I saw something shady",
+"category": "gossip",
+"base": 73,
+"source": "bank"
+},
+{
+"text": "I'm not supposed to say but I saw something shady!!",
+"category": "gossip",
+"base": 73,
+"source": "bank"
+},
+{
+"text": "Um... i'm not supposed to say but I saw something shady",
+"category": "gossip",
+"base": 73,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm not supposed to say but I saw something shady",
+"category": "gossip",
+"base": 73,
+"source": "bank"
+},
+{
+"text": "People are saying the worst things about you",
+"category": "gossip",
+"base": 74,
+"source": "bank"
+},
+{
+"text": "Hey, people are saying the worst things about you",
+"category": "gossip",
+"base": 74,
+"source": "bank"
+},
+{
+"text": "People are saying the worst things about you!!",
+"category": "gossip",
+"base": 74,
+"source": "bank"
+},
+{
+"text": "Um... people are saying the worst things about you",
+"category": "gossip",
+"base": 74,
+"source": "bank"
+},
+{
+"text": "Honestly, people are saying the worst things about you",
+"category": "gossip",
+"base": 74,
+"source": "bank"
+},
+{
+"text": "Guess who got caught sneaking around last night",
+"category": "gossip",
+"base": 75,
+"source": "bank"
+},
+{
+"text": "Hey, guess who got caught sneaking around last night",
+"category": "gossip",
+"base": 75,
+"source": "bank"
+},
+{
+"text": "Guess who got caught sneaking around last night!!",
+"category": "gossip",
+"base": 75,
+"source": "bank"
+},
+{
+"text": "Um... guess who got caught sneaking around last night",
+"category": "gossip",
+"base": 75,
+"source": "bank"
+},
+{
+"text": "Honestly, guess who got caught sneaking around last night",
+"category": "gossip",
+"base": 75,
+"source": "bank"
+},
+{
+"text": "I overheard a rumor that you won't believe",
+"category": "gossip",
+"base": 76,
+"source": "bank"
+},
+{
+"text": "Hey, i overheard a rumor that you won't believe",
+"category": "gossip",
+"base": 76,
+"source": "bank"
+},
+{
+"text": "I overheard a rumor that you won't believe!!",
+"category": "gossip",
+"base": 76,
+"source": "bank"
+},
+{
+"text": "Um... i overheard a rumor that you won't believe",
+"category": "gossip",
+"base": 76,
+"source": "bank"
+},
+{
+"text": "Honestly, i overheard a rumor that you won't believe",
+"category": "gossip",
+"base": 76,
+"source": "bank"
+},
+{
+"text": "Everyone is talking about what happened by the river",
+"category": "gossip",
+"base": 77,
+"source": "bank"
+},
+{
+"text": "Hey, everyone is talking about what happened by the river",
+"category": "gossip",
+"base": 77,
+"source": "bank"
+},
+{
+"text": "Everyone is talking about what happened by the river!!",
+"category": "gossip",
+"base": 77,
+"source": "bank"
+},
+{
+"text": "Um... everyone is talking about what happened by the river",
+"category": "gossip",
+"base": 77,
+"source": "bank"
+},
+{
+"text": "Honestly, everyone is talking about what happened by the river",
+"category": "gossip",
+"base": 77,
+"source": "bank"
+},
+{
+"text": "I know a secret about someone you know",
+"category": "gossip",
+"base": 78,
+"source": "bank"
+},
+{
+"text": "Hey, i know a secret about someone you know",
+"category": "gossip",
+"base": 78,
+"source": "bank"
+},
+{
+"text": "I know a secret about someone you know!!",
+"category": "gossip",
+"base": 78,
+"source": "bank"
+},
+{
+"text": "Um... i know a secret about someone you know",
+"category": "gossip",
+"base": 78,
+"source": "bank"
+},
+{
+"text": "Honestly, i know a secret about someone you know",
+"category": "gossip",
+"base": 78,
+"source": "bank"
+},
+{
+"text": "Don't tell anyone but I think someone is lying to you",
+"category": "gossip",
+"base": 79,
+"source": "bank"
+},
+{
+"text": "Hey, don't tell anyone but I think someone is lying to you",
+"category": "gossip",
+"base": 79,
+"source": "bank"
+},
+{
+"text": "Don't tell anyone but I think someone is lying to you!!",
+"category": "gossip",
+"base": 79,
+"source": "bank"
+},
+{
+"text": "Um... don't tell anyone but I think someone is lying to you",
+"category": "gossip",
+"base": 79,
+"source": "bank"
+},
+{
+"text": "Honestly, don't tell anyone but I think someone is lying to you",
+"category": "gossip",
+"base": 79,
+"source": "bank"
+},
+{
+"text": "Thanks for always being so friendly",
+"category": "gratitude",
+"base": 80,
+"source": "bank"
+},
+{
+"text": "Hey, thanks for always being so friendly",
+"category": "gratitude",
+"base": 80,
+"source": "bank"
+},
+{
+"text": "Thanks for always being so friendly!!",
+"category": "gratitude",
+"base": 80,
+"source": "bank"
+},
+{
+"text": "Um... thanks for always being so friendly",
+"category": "gratitude",
+"base": 80,
+"source": "bank"
+},
+{
+"text": "Honestly, thanks for always being so friendly",
+"category": "gratitude",
+"base": 80,
+"source": "bank"
+},
+{
+"text": "I really appreciate you taking the time to talk",
+"category": "gratitude",
+"base": 81,
+"source": "bank"
+},
+{
+"text": "Hey, i really appreciate you taking the time to talk",
+"category": "gratitude",
+"base": 81,
+"source": "bank"
+},
+{
+"text": "I really appreciate you taking the time to talk!!",
+"category": "gratitude",
+"base": 81,
+"source": "bank"
+},
+{
+"text": "Um... i really appreciate you taking the time to talk",
+"category": "gratitude",
+"base": 81,
+"source": "bank"
+},
+{
+"text": "Honestly, i really appreciate you taking the time to talk",
+"category": "gratitude",
+"base": 81,
+"source": "bank"
+},
+{
+"text": "Thank you for helping me earlier",
+"category": "gratitude",
+"base": 82,
+"source": "bank"
+},
+{
+"text": "Hey, thank you for helping me earlier",
+"category": "gratitude",
+"base": 82,
+"source": "bank"
+},
+{
+"text": "Thank you for helping me earlier!!",
+"category": "gratitude",
+"base": 82,
+"source": "bank"
+},
+{
+"text": "Um... thank you for helping me earlier",
+"category": "gratitude",
+"base": 82,
+"source": "bank"
+},
+{
+"text": "Honestly, thank you for helping me earlier",
+"category": "gratitude",
+"base": 82,
+"source": "bank"
+},
+{
+"text": "I owe you one",
+"category": "gratitude",
+"base": 83,
+"source": "bank"
+},
+{
+"text": "Hey, i owe you one",
+"category": "gratitude",
+"base": 83,
+"source": "bank"
+},
+{
+"text": "I owe you one!!",
+"category": "gratitude",
+"base": 83,
+"source": "bank"
+},
+{
+"text": "Um... i owe you one",
+"category": "gratitude",
+"base": 83,
+"source": "bank"
+},
+{
+"text": "Honestly, i owe you one",
+"category": "gratitude",
+"base": 83,
+"source": "bank"
+},
+{
+"text": "That was really kind of you, thanks",
+"category": "gratitude",
+"base": 84,
+"source": "bank"
+},
+{
+"text": "Hey, that was really kind of you, thanks",
+"category": "gratitude",
+"base": 84,
+"source": "bank"
+},
+{
+"text": "That was really kind of you, thanks!!",
+"category": "gratitude",
+"base": 84,
+"source": "bank"
+},
+{
+"text": "Um... that was really kind of you, thanks",
+"category": "gratitude",
+"base": 84,
+"source": "bank"
+},
+{
+"text": "Honestly, that was really kind of you, thanks",
+"category": "gratitude",
+"base": 84,
+"source": "bank"
+},
+{
+"text": "You've been so patient with me, thank you",
+"category": "gratitude",
+"base": 85,
+"source": "bank"
+},
+{
+"text": "Hey, you've been so patient with me, thank you",
+"category": "gratitude",
+"base": 85,
+"source": "bank"
+},
+{
+"text": "You've been so patient with me, thank you!!",
+"category": "gratitude",
+"base": 85,
+"source": "bank"
+},
+{
+"text": "Um... you've been so patient with me, thank you",
+"category": "gratitude",
+"base": 85,
+"source": "bank"
+},
+{
+"text": "Honestly, you've been so patient with me, thank you",
+"category": "gratitude",
+"base": 85,
+"source": "bank"
+},
+{
+"text": "I appreciate you listening",
+"category": "gratitude",
+"base": 86,
+"source": "bank"
+},
+{
+"text": "Hey, i appreciate you listening",
+"category": "gratitude",
+"base": 86,
+"source": "bank"
+},
+{
+"text": "I appreciate you listening!!",
+"category": "gratitude",
+"base": 86,
+"source": "bank"
+},
+{
+"text": "Um... i appreciate you listening",
+"category": "gratitude",
+"base": 86,
+"source": "bank"
+},
+{
+"text": "Honestly, i appreciate you listening",
+"category": "gratitude",
+"base": 86,
+"source": "bank"
+},
+{
+"text": "Thanks for the advice, it helped a lot",
+"category": "gratitude",
+"base": 87,
+"source": "bank"
+},
+{
+"text": "Hey, thanks for the advice, it helped a lot",
+"category": "gratitude",
+"base": 87,
+"source": "bank"
+},
+{
+"text": "Thanks for the advice, it helped a lot!!",
+"category": "gratitude",
+"base": 87,
+"source": "bank"
+},
+{
+"text": "Um... thanks for the advice, it helped a lot",
+"category": "gratitude",
+"base": 87,
+"source": "bank"
+},
+{
+"text": "Honestly, thanks for the advice, it helped a lot",
+"category": "gratitude",
+"base": 87,
+"source": "bank"
+},
+{
+"text": "Thank you for not giving up on me",
+"category": "gratitude",
+"base": 88,
+"source": "bank"
+},
+{
+"text": "Hey, thank you for not giving up on me",
+"category": "gratitude",
+"base": 88,
+"source": "bank"
+},
+{
+"text": "Thank you for not giving up on me!!",
+"category": "gratitude",
+"base": 88,
+"source": "bank"
+},
+{
+"text": "Um... thank you for not giving up on me",
+"category": "gratitude",
+"base": 88,
+"source": "bank"
+},
+{
+"text": "Honestly, thank you for not giving up on me",
+"category": "gratitude",
+"base": 88,
+"source": "bank"
+},
+{
+"text": "I'm grateful to have a neighbor like you",
+"category": "gratitude",
+"base": 89,
+"source": "bank"
+},
+{
+"text": "Hey, i'm grateful to have a neighbor like you",
+"category": "gratitude",
+"base": 89,
+"source": "bank"
+},
+{
+"text": "I'm grateful to have a neighbor like you!!",
+"category": "gratitude",
+"base": 89,
+"source": "bank"
+},
+{
+"text": "Um... i'm grateful to have a neighbor like you",
+"category": "gratitude",
+"base": 89,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm grateful to have a neighbor like you",
+"category": "gratitude",
+"base": 89,
+"source": "bank"
+},
+{
+"text": "Thanks for sharing that with me",
+"category": "gratitude",
+"base": 90,
+"source": "bank"
+},
+{
+"text": "Hey, thanks for sharing that with me",
+"category": "gratitude",
+"base": 90,
+"source": "bank"
+},
+{
+"text": "Thanks for sharing that with me!!",
+"category": "gratitude",
+"base": 90,
+"source": "bank"
+},
+{
+"text": "Um... thanks for sharing that with me",
+"category": "gratitude",
+"base": 90,
+"source": "bank"
+},
+{
+"text": "Honestly, thanks for sharing that with me",
+"category": "gratitude",
+"base": 90,
+"source": "bank"
+},
+{
+"text": "You saved my day, thank you",
+"category": "gratitude",
+"base": 91,
+"source": "bank"
+},
+{
+"text": "Hey, you saved my day, thank you",
+"category": "gratitude",
+"base": 91,
+"source": "bank"
+},
+{
+"text": "You saved my day, thank you!!",
+"category": "gratitude",
+"base": 91,
+"source": "bank"
+},
+{
+"text": "Um... you saved my day, thank you",
+"category": "gratitude",
+"base": 91,
+"source": "bank"
+},
+{
+"text": "Honestly, you saved my day, thank you",
+"category": "gratitude",
+"base": 91,
+"source": "bank"
+},
+{
+"text": "You're so stupid",
+"category": "insult",
+"base": 92,
+"source": "bank"
+},
+{
+"text": "Hey, you're so stupid",
+"category": "insult",
+"base": 92,
+"source": "bank"
+},
+{
+"text": "You're so stupid!!",
+"category": "insult",
+"base": 92,
+"source": "bank"
+},
+{
+"text": "Um... you're so stupid",
+"category": "insult",
+"base": 92,
+"source": "bank"
+},
+{
+"text": "Honestly, you're so stupid",
+"category": "insult",
+"base": 92,
+"source": "bank"
+},
+{
+"text": "I hate everything about you",
+"category": "insult",
+"base": 93,
+"source": "bank"
+},
+{
+"text": "Hey, i hate everything about you",
+"category": "insult",
+"base": 93,
+"source": "bank"
+},
+{
+"text": "I hate everything about you!!",
+"category": "insult",
+"base": 93,
+"source": "bank"
+},
+{
+"text": "Um... i hate everything about you",
+"category": "insult",
+"base": 93,
+"source": "bank"
+},
+{
+"text": "Honestly, i hate everything about you",
+"category": "insult",
+"base": 93,
+"source": "bank"
+},
+{
+"text": "Nobody likes you",
+"category": "insult",
+"base": 94,
+"source": "bank"
+},
+{
+"text": "Hey, nobody likes you",
+"category": "insult",
+"base": 94,
+"source": "bank"
+},
+{
+"text": "Nobody likes you!!",
+"category": "insult",
+"base": 94,
+"source": "bank"
+},
+{
+"text": "Um... nobody likes you",
+"category": "insult",
+"base": 94,
+"source": "bank"
+},
+{
+"text": "Honestly, nobody likes you",
+"category": "insult",
+"base": 94,
+"source": "bank"
+},
+{
+"text": "You are the most annoying person I've ever met",
+"category": "insult",
+"base": 95,
+"source": "bank"
+},
+{
+"text": "Hey, you are the most annoying person I've ever met",
+"category": "insult",
+"base": 95,
+"source": "bank"
+},
+{
+"text": "You are the most annoying person I've ever met!!",
+"category": "insult",
+"base": 95,
+"source": "bank"
+},
+{
+"text": "Um... you are the most annoying person I've ever met",
+"category": "insult",
+"base": 95,
+"source": "bank"
+},
+{
+"text": "Honestly, you are the most annoying person I've ever met",
+"category": "insult",
+"base": 95,
+"source": "bank"
+},
+{
+"text": "Your face is disgusting",
+"category": "insult",
+"base": 96,
+"source": "bank"
+},
+{
+"text": "Hey, your face is disgusting",
+"category": "insult",
+"base": 96,
+"source": "bank"
+},
+{
+"text": "Your face is disgusting!!",
+"category": "insult",
+"base": 96,
+"source": "bank"
+},
+{
+"text": "Um... your face is disgusting",
+"category": "insult",
+"base": 96,
+"source": "bank"
+},
+{
+"text": "Honestly, your face is disgusting",
+"category": "insult",
+"base": 96,
+"source": "bank"
+},
+{
+"text": "You're a complete idiot",
+"category": "insult",
+"base": 97,
+"source": "bank"
+},
+{
+"text": "Hey, you're a complete idiot",
+"category": "insult",
+"base": 97,
+"source": "bank"
+},
+{
+"text": "You're a complete idiot!!",
+"category": "insult",
+"base": 97,
+"source": "bank"
+},
+{
+"text": "Um... you're a complete idiot",
+"category": "insult",
+"base": 97,
+"source": "bank"
+},
+{
+"text": "Honestly, you're a complete idiot",
+"category": "insult",
+"base": 97,
+"source": "bank"
+},
+{
+"text": "Shut up, nobody asked you",
+"category": "insult",
+"base": 98,
+"source": "bank"
+},
+{
+"text": "Hey, shut up, nobody asked you",
+"category": "insult",
+"base": 98,
+"source": "bank"
+},
+{
+"text": "Shut up, nobody asked you!!",
+"category": "insult",
+"base": 98,
+"source": "bank"
+},
+{
+"text": "Um... shut up, nobody asked you",
+"category": "insult",
+"base": 98,
+"source": "bank"
+},
+{
+"text": "Honestly, shut up, nobody asked you",
+"category": "insult",
+"base": 98,
+"source": "bank"
+},
+{
+"text": "You're pathetic and everyone knows it",
+"category": "insult",
+"base": 99,
+"source": "bank"
+},
+{
+"text": "Hey, you're pathetic and everyone knows it",
+"category": "insult",
+"base": 99,
+"source": "bank"
+},
+{
+"text": "You're pathetic and everyone knows it!!",
+"category": "insult",
+"base": 99,
+"source": "bank"
+},
+{
+"text": "Um... you're pathetic and everyone knows it",
+"category": "insult",
+"base": 99,
+"source": "bank"
+},
+{
+"text": "Honestly, you're pathetic and everyone knows it",
+"category": "insult",
+"base": 99,
+"source": "bank"
+},
+{
+"text": "I can't stand you",
+"category": "insult",
+"base": 100,
+"source": "bank"
+},
+{
+"text": "Hey, i can't stand you",
+"category": "insult",
+"base": 100,
+"source": "bank"
+},
+{
+"text": "I can't stand you!!",
+"category": "insult",
+"base": 100,
+"source": "bank"
+},
+{
+"text": "Um... i can't stand you",
+"category": "insult",
+"base": 100,
+"source": "bank"
+},
+{
+"text": "Honestly, i can't stand you",
+"category": "insult",
+"base": 100,
+"source": "bank"
+},
+{
+"text": "You're worthless",
+"category": "insult",
+"base": 101,
+"source": "bank"
+},
+{
+"text": "Hey, you're worthless",
+"category": "insult",
+"base": 101,
+"source": "bank"
+},
+{
+"text": "You're worthless!!",
+"category": "insult",
+"base": 101,
+"source": "bank"
+},
+{
+"text": "Um... you're worthless",
+"category": "insult",
+"base": 101,
+"source": "bank"
+},
+{
+"text": "Honestly, you're worthless",
+"category": "insult",
+"base": 101,
+"source": "bank"
+},
+{
+"text": "Ugh, you smell terrible",
+"category": "insult",
+"base": 102,
+"source": "bank"
+},
+{
+"text": "Hey, ugh, you smell terrible",
+"category": "insult",
+"base": 102,
+"source": "bank"
+},
+{
+"text": "Ugh, you smell terrible!!",
+"category": "insult",
+"base": 102,
+"source": "bank"
+},
+{
+"text": "Um... ugh, you smell terrible",
+"category": "insult",
+"base": 102,
+"source": "bank"
+},
+{
+"text": "Honestly, ugh, you smell terrible",
+"category": "insult",
+"base": 102,
+"source": "bank"
+},
+{
+"text": "What a loser",
+"category": "insult",
+"base": 103,
+"source": "bank"
+},
+{
+"text": "Hey, what a loser",
+"category": "insult",
+"base": 103,
+"source": "bank"
+},
+{
+"text": "What a loser!!",
+"category": "insult",
+"base": 103,
+"source": "bank"
+},
+{
+"text": "Um... what a loser",
+"category": "insult",
+"base": 103,
+"source": "bank"
+},
+{
+"text": "Honestly, what a loser",
+"category": "insult",
+"base": 103,
+"source": "bank"
+},
+{
+"text": "Why don't skeletons fight each other? They don't have the guts",
+"category": "joke",
+"base": 104,
+"source": "bank"
+},
+{
+"text": "Hey, why don't skeletons fight each other? They don't have the guts",
+"category": "joke",
+"base": 104,
+"source": "bank"
+},
+{
+"text": "Why don't skeletons fight each other? They don't have the guts!!",
+"category": "joke",
+"base": 104,
+"source": "bank"
+},
+{
+"text": "Um... why don't skeletons fight each other? They don't have the guts",
+"category": "joke",
+"base": 104,
+"source": "bank"
+},
+{
+"text": "Honestly, why don't skeletons fight each other? They don't have the guts",
+"category": "joke",
+"base": 104,
+"source": "bank"
+},
+{
+"text": "I tried to catch fog yesterday but I mist",
+"category": "joke",
+"base": 105,
+"source": "bank"
+},
+{
+"text": "Hey, i tried to catch fog yesterday but I mist",
+"category": "joke",
+"base": 105,
+"source": "bank"
+},
+{
+"text": "I tried to catch fog yesterday but I mist!!",
+"category": "joke",
+"base": 105,
+"source": "bank"
+},
+{
+"text": "Um... i tried to catch fog yesterday but I mist",
+"category": "joke",
+"base": 105,
+"source": "bank"
+},
+{
+"text": "Honestly, i tried to catch fog yesterday but I mist",
+"category": "joke",
+"base": 105,
+"source": "bank"
+},
+{
+"text": "I'm reading a book on anti-gravity and I can't put it down",
+"category": "joke",
+"base": 106,
+"source": "bank"
+},
+{
+"text": "Hey, i'm reading a book on anti-gravity and I can't put it down",
+"category": "joke",
+"base": 106,
+"source": "bank"
+},
+{
+"text": "I'm reading a book on anti-gravity and I can't put it down!!",
+"category": "joke",
+"base": 106,
+"source": "bank"
+},
+{
+"text": "Um... i'm reading a book on anti-gravity and I can't put it down",
+"category": "joke",
+"base": 106,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm reading a book on anti-gravity and I can't put it down",
+"category": "joke",
+"base": 106,
+"source": "bank"
+},
+{
+"text": "What do you call a sleeping bull? A bulldozer",
+"category": "joke",
+"base": 107,
+"source": "bank"
+},
+{
+"text": "Hey, what do you call a sleeping bull? A bulldozer",
+"category": "joke",
+"base": 107,
+"source": "bank"
+},
+{
+"text": "What do you call a sleeping bull? A bulldozer!!",
+"category": "joke",
+"base": 107,
+"source": "bank"
+},
+{
+"text": "Um... what do you call a sleeping bull? A bulldozer",
+"category": "joke",
+"base": 107,
+"source": "bank"
+},
+{
+"text": "Honestly, what do you call a sleeping bull? A bulldozer",
+"category": "joke",
+"base": 107,
+"source": "bank"
+},
+{
+"text": "I told my plants a joke and now they're kind of leafing",
+"category": "joke",
+"base": 108,
+"source": "bank"
+},
+{
+"text": "Hey, i told my plants a joke and now they're kind of leafing",
+"category": "joke",
+"base": 108,
+"source": "bank"
+},
+{
+"text": "I told my plants a joke and now they're kind of leafing!!",
+"category": "joke",
+"base": 108,
+"source": "bank"
+},
+{
+"text": "Um... i told my plants a joke and now they're kind of leafing",
+"category": "joke",
+"base": 108,
+"source": "bank"
+},
+{
+"text": "Honestly, i told my plants a joke and now they're kind of leafing",
+"category": "joke",
+"base": 108,
+"source": "bank"
+},
+{
+"text": "Why did the scarecrow win an award? He was outstanding in his field",
+"category": "joke",
+"base": 109,
+"source": "bank"
+},
+{
+"text": "Hey, why did the scarecrow win an award? He was outstanding in his field",
+"category": "joke",
+"base": 109,
+"source": "bank"
+},
+{
+"text": "Why did the scarecrow win an award? He was outstanding in his field!!",
+"category": "joke",
+"base": 109,
+"source": "bank"
+},
+{
+"text": "Um... why did the scarecrow win an award? He was outstanding in his field",
+"category": "joke",
+"base": 109,
+"source": "bank"
+},
+{
+"text": "Honestly, why did the scarecrow win an award? He was outstanding in his field",
+"category": "joke",
+"base": 109,
+"source": "bank"
+},
+{
+"text": "I would tell you a pizza joke but it's too cheesy",
+"category": "joke",
+"base": 110,
+"source": "bank"
+},
+{
+"text": "Hey, i would tell you a pizza joke but it's too cheesy",
+"category": "joke",
+"base": 110,
+"source": "bank"
+},
+{
+"text": "I would tell you a pizza joke but it's too cheesy!!",
+"category": "joke",
+"base": 110,
+"source": "bank"
+},
+{
+"text": "Um... i would tell you a pizza joke but it's too cheesy",
+"category": "joke",
+"base": 110,
+"source": "bank"
+},
+{
+"text": "Honestly, i would tell you a pizza joke but it's too cheesy",
+"category": "joke",
+"base": 110,
+"source": "bank"
+},
+{
+"text": "Parallel lines have so much in common, it's a shame they never meet",
+"category": "joke",
+"base": 111,
+"source": "bank"
+},
+{
+"text": "Hey, parallel lines have so much in common, it's a shame they never meet",
+"category": "joke",
+"base": 111,
+"source": "bank"
+},
+{
+"text": "Parallel lines have so much in common, it's a shame they never meet!!",
+"category": "joke",
+"base": 111,
+"source": "bank"
+},
+{
+"text": "Um... parallel lines have so much in common, it's a shame they never meet",
+"category": "joke",
+"base": 111,
+"source": "bank"
+},
+{
+"text": "Honestly, parallel lines have so much in common, it's a shame they never meet",
+"category": "joke",
+"base": 111,
+"source": "bank"
+},
+{
+"text": "I used to be a baker but I couldn't make enough dough",
+"category": "joke",
+"base": 112,
+"source": "bank"
+},
+{
+"text": "Hey, i used to be a baker but I couldn't make enough dough",
+"category": "joke",
+"base": 112,
+"source": "bank"
+},
+{
+"text": "I used to be a baker but I couldn't make enough dough!!",
+"category": "joke",
+"base": 112,
+"source": "bank"
+},
+{
+"text": "Um... i used to be a baker but I couldn't make enough dough",
+"category": "joke",
+"base": 112,
+"source": "bank"
+},
+{
+"text": "Honestly, i used to be a baker but I couldn't make enough dough",
+"category": "joke",
+"base": 112,
+"source": "bank"
+},
+{
+"text": "My bed and I have a long-term relationship, it's very comfortable",
+"category": "joke",
+"base": 113,
+"source": "bank"
+},
+{
+"text": "Hey, my bed and I have a long-term relationship, it's very comfortable",
+"category": "joke",
+"base": 113,
+"source": "bank"
+},
+{
+"text": "My bed and I have a long-term relationship, it's very comfortable!!",
+"category": "joke",
+"base": 113,
+"source": "bank"
+},
+{
+"text": "Um... my bed and I have a long-term relationship, it's very comfortable",
+"category": "joke",
+"base": 113,
+"source": "bank"
+},
+{
+"text": "Honestly, my bed and I have a long-term relationship, it's very comfortable",
+"category": "joke",
+"base": 113,
+"source": "bank"
+},
+{
+"text": "The weather is okay today",
+"category": "neutral",
+"base": 114,
+"source": "bank"
+},
+{
+"text": "Hey, the weather is okay today",
+"category": "neutral",
+"base": 114,
+"source": "bank"
+},
+{
+"text": "The weather is okay today!!",
+"category": "neutral",
+"base": 114,
+"source": "bank"
+},
+{
+"text": "Um... the weather is okay today",
+"category": "neutral",
+"base": 114,
+"source": "bank"
+},
+{
+"text": "Honestly, the weather is okay today",
+"category": "neutral",
+"base": 114,
+"source": "bank"
+},
+{
+"text": "I walked over here from the other side",
+"category": "neutral",
+"base": 115,
+"source": "bank"
+},
+{
+"text": "Hey, i walked over here from the other side",
+"category": "neutral",
+"base": 115,
+"source": "bank"
+},
+{
+"text": "I walked over here from the other side!!",
+"category": "neutral",
+"base": 115,
+"source": "bank"
+},
+{
+"text": "Um... i walked over here from the other side",
+"category": "neutral",
+"base": 115,
+"source": "bank"
+},
+{
+"text": "Honestly, i walked over here from the other side",
+"category": "neutral",
+"base": 115,
+"source": "bank"
+},
+{
+"text": "I saw a bird earlier",
+"category": "neutral",
+"base": 116,
+"source": "bank"
+},
+{
+"text": "Hey, i saw a bird earlier",
+"category": "neutral",
+"base": 116,
+"source": "bank"
+},
+{
+"text": "I saw a bird earlier!!",
+"category": "neutral",
+"base": 116,
+"source": "bank"
+},
+{
+"text": "Um... i saw a bird earlier",
+"category": "neutral",
+"base": 116,
+"source": "bank"
+},
+{
+"text": "Honestly, i saw a bird earlier",
+"category": "neutral",
+"base": 116,
+"source": "bank"
+},
+{
+"text": "It's a Tuesday I think",
+"category": "neutral",
+"base": 117,
+"source": "bank"
+},
+{
+"text": "Hey, it's a Tuesday I think",
+"category": "neutral",
+"base": 117,
+"source": "bank"
+},
+{
+"text": "It's a Tuesday I think!!",
+"category": "neutral",
+"base": 117,
+"source": "bank"
+},
+{
+"text": "Um... it's a Tuesday I think",
+"category": "neutral",
+"base": 117,
+"source": "bank"
+},
+{
+"text": "Honestly, it's a Tuesday I think",
+"category": "neutral",
+"base": 117,
+"source": "bank"
+},
+{
+"text": "There are some clouds out",
+"category": "neutral",
+"base": 118,
+"source": "bank"
+},
+{
+"text": "Hey, there are some clouds out",
+"category": "neutral",
+"base": 118,
+"source": "bank"
+},
+{
+"text": "There are some clouds out!!",
+"category": "neutral",
+"base": 118,
+"source": "bank"
+},
+{
+"text": "Um... there are some clouds out",
+"category": "neutral",
+"base": 118,
+"source": "bank"
+},
+{
+"text": "Honestly, there are some clouds out",
+"category": "neutral",
+"base": 118,
+"source": "bank"
+},
+{
+"text": "I'm just passing through",
+"category": "neutral",
+"base": 119,
+"source": "bank"
+},
+{
+"text": "Hey, i'm just passing through",
+"category": "neutral",
+"base": 119,
+"source": "bank"
+},
+{
+"text": "I'm just passing through!!",
+"category": "neutral",
+"base": 119,
+"source": "bank"
+},
+{
+"text": "Um... i'm just passing through",
+"category": "neutral",
+"base": 119,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm just passing through",
+"category": "neutral",
+"base": 119,
+"source": "bank"
+},
+{
+"text": "I had some water a while ago",
+"category": "neutral",
+"base": 120,
+"source": "bank"
+},
+{
+"text": "Hey, i had some water a while ago",
+"category": "neutral",
+"base": 120,
+"source": "bank"
+},
+{
+"text": "I had some water a while ago!!",
+"category": "neutral",
+"base": 120,
+"source": "bank"
+},
+{
+"text": "Um... i had some water a while ago",
+"category": "neutral",
+"base": 120,
+"source": "bank"
+},
+{
+"text": "Honestly, i had some water a while ago",
+"category": "neutral",
+"base": 120,
+"source": "bank"
+},
+{
+"text": "That tree looks about the same as yesterday",
+"category": "neutral",
+"base": 121,
+"source": "bank"
+},
+{
+"text": "Hey, that tree looks about the same as yesterday",
+"category": "neutral",
+"base": 121,
+"source": "bank"
+},
+{
+"text": "That tree looks about the same as yesterday!!",
+"category": "neutral",
+"base": 121,
+"source": "bank"
+},
+{
+"text": "Um... that tree looks about the same as yesterday",
+"category": "neutral",
+"base": 121,
+"source": "bank"
+},
+{
+"text": "Honestly, that tree looks about the same as yesterday",
+"category": "neutral",
+"base": 121,
+"source": "bank"
+},
+{
+"text": "I'm here",
+"category": "neutral",
+"base": 122,
+"source": "bank"
+},
+{
+"text": "Hey, i'm here",
+"category": "neutral",
+"base": 122,
+"source": "bank"
+},
+{
+"text": "I'm here!!",
+"category": "neutral",
+"base": 122,
+"source": "bank"
+},
+{
+"text": "Um... i'm here",
+"category": "neutral",
+"base": 122,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm here",
+"category": "neutral",
+"base": 122,
+"source": "bank"
+},
+{
+"text": "I came to say hello",
+"category": "neutral",
+"base": 123,
+"source": "bank"
+},
+{
+"text": "Hey, i came to say hello",
+"category": "neutral",
+"base": 123,
+"source": "bank"
+},
+{
+"text": "I came to say hello!!",
+"category": "neutral",
+"base": 123,
+"source": "bank"
+},
+{
+"text": "Um... i came to say hello",
+"category": "neutral",
+"base": 123,
+"source": "bank"
+},
+{
+"text": "Honestly, i came to say hello",
+"category": "neutral",
+"base": 123,
+"source": "bank"
+},
+{
+"text": "The path is a bit muddy",
+"category": "neutral",
+"base": 124,
+"source": "bank"
+},
+{
+"text": "Hey, the path is a bit muddy",
+"category": "neutral",
+"base": 124,
+"source": "bank"
+},
+{
+"text": "The path is a bit muddy!!",
+"category": "neutral",
+"base": 124,
+"source": "bank"
+},
+{
+"text": "Um... the path is a bit muddy",
+"category": "neutral",
+"base": 124,
+"source": "bank"
+},
+{
+"text": "Honestly, the path is a bit muddy",
+"category": "neutral",
+"base": 124,
+"source": "bank"
+},
+{
+"text": "Hmm, it's quiet around here",
+"category": "neutral",
+"base": 125,
+"source": "bank"
+},
+{
+"text": "Hey, hmm, it's quiet around here",
+"category": "neutral",
+"base": 125,
+"source": "bank"
+},
+{
+"text": "Hmm, it's quiet around here!!",
+"category": "neutral",
+"base": 125,
+"source": "bank"
+},
+{
+"text": "Um... hmm, it's quiet around here",
+"category": "neutral",
+"base": 125,
+"source": "bank"
+},
+{
+"text": "Honestly, hmm, it's quiet around here",
+"category": "neutral",
+"base": 125,
+"source": "bank"
+},
+{
+"text": "Do you need help with anything?",
+"category": "offer_help",
+"base": 126,
+"source": "bank"
+},
+{
+"text": "Hey, do you need help with anything?",
+"category": "offer_help",
+"base": 126,
+"source": "bank"
+},
+{
+"text": "Do you need help with anything?!!",
+"category": "offer_help",
+"base": 126,
+"source": "bank"
+},
+{
+"text": "Um... do you need help with anything?",
+"category": "offer_help",
+"base": 126,
+"source": "bank"
+},
+{
+"text": "Honestly, do you need help with anything?",
+"category": "offer_help",
+"base": 126,
+"source": "bank"
+},
+{
+"text": "I'd be happy to carry that for you",
+"category": "offer_help",
+"base": 127,
+"source": "bank"
+},
+{
+"text": "Hey, i'd be happy to carry that for you",
+"category": "offer_help",
+"base": 127,
+"source": "bank"
+},
+{
+"text": "I'd be happy to carry that for you!!",
+"category": "offer_help",
+"base": 127,
+"source": "bank"
+},
+{
+"text": "Um... i'd be happy to carry that for you",
+"category": "offer_help",
+"base": 127,
+"source": "bank"
+},
+{
+"text": "Honestly, i'd be happy to carry that for you",
+"category": "offer_help",
+"base": 127,
+"source": "bank"
+},
+{
+"text": "Let me know if there's anything I can do",
+"category": "offer_help",
+"base": 128,
+"source": "bank"
+},
+{
+"text": "Hey, let me know if there's anything I can do",
+"category": "offer_help",
+"base": 128,
+"source": "bank"
+},
+{
+"text": "Let me know if there's anything I can do!!",
+"category": "offer_help",
+"base": 128,
+"source": "bank"
+},
+{
+"text": "Um... let me know if there's anything I can do",
+"category": "offer_help",
+"base": 128,
+"source": "bank"
+},
+{
+"text": "Honestly, let me know if there's anything I can do",
+"category": "offer_help",
+"base": 128,
+"source": "bank"
+},
+{
+"text": "Can I give you a hand with your garden?",
+"category": "offer_help",
+"base": 129,
+"source": "bank"
+},
+{
+"text": "Hey, can I give you a hand with your garden?",
+"category": "offer_help",
+"base": 129,
+"source": "bank"
+},
+{
+"text": "Can I give you a hand with your garden?!!",
+"category": "offer_help",
+"base": 129,
+"source": "bank"
+},
+{
+"text": "Um... can I give you a hand with your garden?",
+"category": "offer_help",
+"base": 129,
+"source": "bank"
+},
+{
+"text": "Honestly, can I give you a hand with your garden?",
+"category": "offer_help",
+"base": 129,
+"source": "bank"
+},
+{
+"text": "I'm free this afternoon if you need company",
+"category": "offer_help",
+"base": 130,
+"source": "bank"
+},
+{
+"text": "Hey, i'm free this afternoon if you need company",
+"category": "offer_help",
+"base": 130,
+"source": "bank"
+},
+{
+"text": "I'm free this afternoon if you need company!!",
+"category": "offer_help",
+"base": 130,
+"source": "bank"
+},
+{
+"text": "Um... i'm free this afternoon if you need company",
+"category": "offer_help",
+"base": 130,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm free this afternoon if you need company",
+"category": "offer_help",
+"base": 130,
+"source": "bank"
+},
+{
+"text": "I could bring you some water if you're thirsty",
+"category": "offer_help",
+"base": 131,
+"source": "bank"
+},
+{
+"text": "Hey, i could bring you some water if you're thirsty",
+"category": "offer_help",
+"base": 131,
+"source": "bank"
+},
+{
+"text": "I could bring you some water if you're thirsty!!",
+"category": "offer_help",
+"base": 131,
+"source": "bank"
+},
+{
+"text": "Um... i could bring you some water if you're thirsty",
+"category": "offer_help",
+"base": 131,
+"source": "bank"
+},
+{
+"text": "Honestly, i could bring you some water if you're thirsty",
+"category": "offer_help",
+"base": 131,
+"source": "bank"
+},
+{
+"text": "Would you like me to fetch something?",
+"category": "offer_help",
+"base": 132,
+"source": "bank"
+},
+{
+"text": "Hey, would you like me to fetch something?",
+"category": "offer_help",
+"base": 132,
+"source": "bank"
+},
+{
+"text": "Would you like me to fetch something?!!",
+"category": "offer_help",
+"base": 132,
+"source": "bank"
+},
+{
+"text": "Um... would you like me to fetch something?",
+"category": "offer_help",
+"base": 132,
+"source": "bank"
+},
+{
+"text": "Honestly, would you like me to fetch something?",
+"category": "offer_help",
+"base": 132,
+"source": "bank"
+},
+{
+"text": "I can help you clean up if you'd like",
+"category": "offer_help",
+"base": 133,
+"source": "bank"
+},
+{
+"text": "Hey, i can help you clean up if you'd like",
+"category": "offer_help",
+"base": 133,
+"source": "bank"
+},
+{
+"text": "I can help you clean up if you'd like!!",
+"category": "offer_help",
+"base": 133,
+"source": "bank"
+},
+{
+"text": "Um... i can help you clean up if you'd like",
+"category": "offer_help",
+"base": 133,
+"source": "bank"
+},
+{
+"text": "Honestly, i can help you clean up if you'd like",
+"category": "offer_help",
+"base": 133,
+"source": "bank"
+},
+{
+"text": "Let me share my lunch with you",
+"category": "offer_help",
+"base": 134,
+"source": "bank"
+},
+{
+"text": "Hey, let me share my lunch with you",
+"category": "offer_help",
+"base": 134,
+"source": "bank"
+},
+{
+"text": "Let me share my lunch with you!!",
+"category": "offer_help",
+"base": 134,
+"source": "bank"
+},
+{
+"text": "Um... let me share my lunch with you",
+"category": "offer_help",
+"base": 134,
+"source": "bank"
+},
+{
+"text": "Honestly, let me share my lunch with you",
+"category": "offer_help",
+"base": 134,
+"source": "bank"
+},
+{
+"text": "I'll keep an eye on things while you rest",
+"category": "offer_help",
+"base": 135,
+"source": "bank"
+},
+{
+"text": "Hey, i'll keep an eye on things while you rest",
+"category": "offer_help",
+"base": 135,
+"source": "bank"
+},
+{
+"text": "I'll keep an eye on things while you rest!!",
+"category": "offer_help",
+"base": 135,
+"source": "bank"
+},
+{
+"text": "Um... i'll keep an eye on things while you rest",
+"category": "offer_help",
+"base": 135,
+"source": "bank"
+},
+{
+"text": "Honestly, i'll keep an eye on things while you rest",
+"category": "offer_help",
+"base": 135,
+"source": "bank"
+},
+{
+"text": "Shall I walk with you to the market?",
+"category": "offer_help",
+"base": 136,
+"source": "bank"
+},
+{
+"text": "Hey, shall I walk with you to the market?",
+"category": "offer_help",
+"base": 136,
+"source": "bank"
+},
+{
+"text": "Shall I walk with you to the market?!!",
+"category": "offer_help",
+"base": 136,
+"source": "bank"
+},
+{
+"text": "Um... shall I walk with you to the market?",
+"category": "offer_help",
+"base": 136,
+"source": "bank"
+},
+{
+"text": "Honestly, shall I walk with you to the market?",
+"category": "offer_help",
+"base": 136,
+"source": "bank"
+},
+{
+"text": "Anything you need, just ask me",
+"category": "offer_help",
+"base": 137,
+"source": "bank"
+},
+{
+"text": "Hey, anything you need, just ask me",
+"category": "offer_help",
+"base": 137,
+"source": "bank"
+},
+{
+"text": "Anything you need, just ask me!!",
+"category": "offer_help",
+"base": 137,
+"source": "bank"
+},
+{
+"text": "Um... anything you need, just ask me",
+"category": "offer_help",
+"base": 137,
+"source": "bank"
+},
+{
+"text": "Honestly, anything you need, just ask me",
+"category": "offer_help",
+"base": 137,
+"source": "bank"
+},
+{
+"text": "I baked bread this morning and it turned out great",
+"category": "sharing",
+"base": 138,
+"source": "bank"
+},
+{
+"text": "Hey, i baked bread this morning and it turned out great",
+"category": "sharing",
+"base": 138,
+"source": "bank"
+},
+{
+"text": "I baked bread this morning and it turned out great!!",
+"category": "sharing",
+"base": 138,
+"source": "bank"
+},
+{
+"text": "Um... i baked bread this morning and it turned out great",
+"category": "sharing",
+"base": 138,
+"source": "bank"
+},
+{
+"text": "Honestly, i baked bread this morning and it turned out great",
+"category": "sharing",
+"base": 138,
+"source": "bank"
+},
+{
+"text": "I found a pretty flower by the river today",
+"category": "sharing",
+"base": 139,
+"source": "bank"
+},
+{
+"text": "Hey, i found a pretty flower by the river today",
+"category": "sharing",
+"base": 139,
+"source": "bank"
+},
+{
+"text": "I found a pretty flower by the river today!!",
+"category": "sharing",
+"base": 139,
+"source": "bank"
+},
+{
+"text": "Um... i found a pretty flower by the river today",
+"category": "sharing",
+"base": 139,
+"source": "bank"
+},
+{
+"text": "Honestly, i found a pretty flower by the river today",
+"category": "sharing",
+"base": 139,
+"source": "bank"
+},
+{
+"text": "I've been learning how to paint lately",
+"category": "sharing",
+"base": 140,
+"source": "bank"
+},
+{
+"text": "Hey, i've been learning how to paint lately",
+"category": "sharing",
+"base": 140,
+"source": "bank"
+},
+{
+"text": "I've been learning how to paint lately!!",
+"category": "sharing",
+"base": 140,
+"source": "bank"
+},
+{
+"text": "Um... i've been learning how to paint lately",
+"category": "sharing",
+"base": 140,
+"source": "bank"
+},
+{
+"text": "Honestly, i've been learning how to paint lately",
+"category": "sharing",
+"base": 140,
+"source": "bank"
+},
+{
+"text": "I watched the sunrise and it was beautiful",
+"category": "sharing",
+"base": 141,
+"source": "bank"
+},
+{
+"text": "Hey, i watched the sunrise and it was beautiful",
+"category": "sharing",
+"base": 141,
+"source": "bank"
+},
+{
+"text": "I watched the sunrise and it was beautiful!!",
+"category": "sharing",
+"base": 141,
+"source": "bank"
+},
+{
+"text": "Um... i watched the sunrise and it was beautiful",
+"category": "sharing",
+"base": 141,
+"source": "bank"
+},
+{
+"text": "Honestly, i watched the sunrise and it was beautiful",
+"category": "sharing",
+"base": 141,
+"source": "bank"
+},
+{
+"text": "I picked some apples and they were so sweet",
+"category": "sharing",
+"base": 142,
+"source": "bank"
+},
+{
+"text": "Hey, i picked some apples and they were so sweet",
+"category": "sharing",
+"base": 142,
+"source": "bank"
+},
+{
+"text": "I picked some apples and they were so sweet!!",
+"category": "sharing",
+"base": 142,
+"source": "bank"
+},
+{
+"text": "Um... i picked some apples and they were so sweet",
+"category": "sharing",
+"base": 142,
+"source": "bank"
+},
+{
+"text": "Honestly, i picked some apples and they were so sweet",
+"category": "sharing",
+"base": 142,
+"source": "bank"
+},
+{
+"text": "I've been practicing a song all week",
+"category": "sharing",
+"base": 143,
+"source": "bank"
+},
+{
+"text": "Hey, i've been practicing a song all week",
+"category": "sharing",
+"base": 143,
+"source": "bank"
+},
+{
+"text": "I've been practicing a song all week!!",
+"category": "sharing",
+"base": 143,
+"source": "bank"
+},
+{
+"text": "Um... i've been practicing a song all week",
+"category": "sharing",
+"base": 143,
+"source": "bank"
+},
+{
+"text": "Honestly, i've been practicing a song all week",
+"category": "sharing",
+"base": 143,
+"source": "bank"
+},
+{
+"text": "I finally finished a puzzle that took days",
+"category": "sharing",
+"base": 144,
+"source": "bank"
+},
+{
+"text": "Hey, i finally finished a puzzle that took days",
+"category": "sharing",
+"base": 144,
+"source": "bank"
+},
+{
+"text": "I finally finished a puzzle that took days!!",
+"category": "sharing",
+"base": 144,
+"source": "bank"
+},
+{
+"text": "Um... i finally finished a puzzle that took days",
+"category": "sharing",
+"base": 144,
+"source": "bank"
+},
+{
+"text": "Honestly, i finally finished a puzzle that took days",
+"category": "sharing",
+"base": 144,
+"source": "bank"
+},
+{
+"text": "I met a very friendly cat on my way here",
+"category": "sharing",
+"base": 145,
+"source": "bank"
+},
+{
+"text": "Hey, i met a very friendly cat on my way here",
+"category": "sharing",
+"base": 145,
+"source": "bank"
+},
+{
+"text": "I met a very friendly cat on my way here!!",
+"category": "sharing",
+"base": 145,
+"source": "bank"
+},
+{
+"text": "Um... i met a very friendly cat on my way here",
+"category": "sharing",
+"base": 145,
+"source": "bank"
+},
+{
+"text": "Honestly, i met a very friendly cat on my way here",
+"category": "sharing",
+"base": 145,
+"source": "bank"
+},
+{
+"text": "I took a long walk and cleared my head",
+"category": "sharing",
+"base": 146,
+"source": "bank"
+},
+{
+"text": "Hey, i took a long walk and cleared my head",
+"category": "sharing",
+"base": 146,
+"source": "bank"
+},
+{
+"text": "I took a long walk and cleared my head!!",
+"category": "sharing",
+"base": 146,
+"source": "bank"
+},
+{
+"text": "Um... i took a long walk and cleared my head",
+"category": "sharing",
+"base": 146,
+"source": "bank"
+},
+{
+"text": "Honestly, i took a long walk and cleared my head",
+"category": "sharing",
+"base": 146,
+"source": "bank"
+},
+{
+"text": "I made a new friend yesterday",
+"category": "sharing",
+"base": 147,
+"source": "bank"
+},
+{
+"text": "Hey, i made a new friend yesterday",
+"category": "sharing",
+"base": 147,
+"source": "bank"
+},
+{
+"text": "I made a new friend yesterday!!",
+"category": "sharing",
+"base": 147,
+"source": "bank"
+},
+{
+"text": "Um... i made a new friend yesterday",
+"category": "sharing",
+"base": 147,
+"source": "bank"
+},
+{
+"text": "Honestly, i made a new friend yesterday",
+"category": "sharing",
+"base": 147,
+"source": "bank"
+},
+{
+"text": "I'm thinking of planting a garden",
+"category": "sharing",
+"base": 148,
+"source": "bank"
+},
+{
+"text": "Hey, i'm thinking of planting a garden",
+"category": "sharing",
+"base": 148,
+"source": "bank"
+},
+{
+"text": "I'm thinking of planting a garden!!",
+"category": "sharing",
+"base": 148,
+"source": "bank"
+},
+{
+"text": "Um... i'm thinking of planting a garden",
+"category": "sharing",
+"base": 148,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm thinking of planting a garden",
+"category": "sharing",
+"base": 148,
+"source": "bank"
+},
+{
+"text": "I read a wonderful story last night",
+"category": "sharing",
+"base": 149,
+"source": "bank"
+},
+{
+"text": "Hey, i read a wonderful story last night",
+"category": "sharing",
+"base": 149,
+"source": "bank"
+},
+{
+"text": "I read a wonderful story last night!!",
+"category": "sharing",
+"base": 149,
+"source": "bank"
+},
+{
+"text": "Um... i read a wonderful story last night",
+"category": "sharing",
+"base": 149,
+"source": "bank"
+},
+{
+"text": "Honestly, i read a wonderful story last night",
+"category": "sharing",
+"base": 149,
+"source": "bank"
+},
+{
+"text": "Back off or I'll make you regret it",
+"category": "threat",
+"base": 150,
+"source": "bank"
+},
+{
+"text": "Hey, back off or I'll make you regret it",
+"category": "threat",
+"base": 150,
+"source": "bank"
+},
+{
+"text": "Back off or I'll make you regret it!!",
+"category": "threat",
+"base": 150,
+"source": "bank"
+},
+{
+"text": "Um... back off or I'll make you regret it",
+"category": "threat",
+"base": 150,
+"source": "bank"
+},
+{
+"text": "Honestly, back off or I'll make you regret it",
+"category": "threat",
+"base": 150,
+"source": "bank"
+},
+{
+"text": "I'll tell everyone your secret",
+"category": "threat",
+"base": 151,
+"source": "bank"
+},
+{
+"text": "Hey, i'll tell everyone your secret",
+"category": "threat",
+"base": 151,
+"source": "bank"
+},
+{
+"text": "I'll tell everyone your secret!!",
+"category": "threat",
+"base": 151,
+"source": "bank"
+},
+{
+"text": "Um... i'll tell everyone your secret",
+"category": "threat",
+"base": 151,
+"source": "bank"
+},
+{
+"text": "Honestly, i'll tell everyone your secret",
+"category": "threat",
+"base": 151,
+"source": "bank"
+},
+{
+"text": "You'd better watch your back",
+"category": "threat",
+"base": 152,
+"source": "bank"
+},
+{
+"text": "Hey, you'd better watch your back",
+"category": "threat",
+"base": 152,
+"source": "bank"
+},
+{
+"text": "You'd better watch your back!!",
+"category": "threat",
+"base": 152,
+"source": "bank"
+},
+{
+"text": "Um... you'd better watch your back",
+"category": "threat",
+"base": 152,
+"source": "bank"
+},
+{
+"text": "Honestly, you'd better watch your back",
+"category": "threat",
+"base": 152,
+"source": "bank"
+},
+{
+"text": "I'll hurt you if you get in my way",
+"category": "threat",
+"base": 153,
+"source": "bank"
+},
+{
+"text": "Hey, i'll hurt you if you get in my way",
+"category": "threat",
+"base": 153,
+"source": "bank"
+},
+{
+"text": "I'll hurt you if you get in my way!!",
+"category": "threat",
+"base": 153,
+"source": "bank"
+},
+{
+"text": "Um... i'll hurt you if you get in my way",
+"category": "threat",
+"base": 153,
+"source": "bank"
+},
+{
+"text": "Honestly, i'll hurt you if you get in my way",
+"category": "threat",
+"base": 153,
+"source": "bank"
+},
+{
+"text": "One more word and you'll be sorry",
+"category": "threat",
+"base": 154,
+"source": "bank"
+},
+{
+"text": "Hey, one more word and you'll be sorry",
+"category": "threat",
+"base": 154,
+"source": "bank"
+},
+{
+"text": "One more word and you'll be sorry!!",
+"category": "threat",
+"base": 154,
+"source": "bank"
+},
+{
+"text": "Um... one more word and you'll be sorry",
+"category": "threat",
+"base": 154,
+"source": "bank"
+},
+{
+"text": "Honestly, one more word and you'll be sorry",
+"category": "threat",
+"base": 154,
+"source": "bank"
+},
+{
+"text": "I know where you live and I'm coming for you",
+"category": "threat",
+"base": 155,
+"source": "bank"
+},
+{
+"text": "Hey, i know where you live and I'm coming for you",
+"category": "threat",
+"base": 155,
+"source": "bank"
+},
+{
+"text": "I know where you live and I'm coming for you!!",
+"category": "threat",
+"base": 155,
+"source": "bank"
+},
+{
+"text": "Um... i know where you live and I'm coming for you",
+"category": "threat",
+"base": 155,
+"source": "bank"
+},
+{
+"text": "Honestly, i know where you live and I'm coming for you",
+"category": "threat",
+"base": 155,
+"source": "bank"
+},
+{
+"text": "Stay away from me or else",
+"category": "threat",
+"base": 156,
+"source": "bank"
+},
+{
+"text": "Hey, stay away from me or else",
+"category": "threat",
+"base": 156,
+"source": "bank"
+},
+{
+"text": "Stay away from me or else!!",
+"category": "threat",
+"base": 156,
+"source": "bank"
+},
+{
+"text": "Um... stay away from me or else",
+"category": "threat",
+"base": 156,
+"source": "bank"
+},
+{
+"text": "Honestly, stay away from me or else",
+"category": "threat",
+"base": 156,
+"source": "bank"
+},
+{
+"text": "I'm going to ruin you",
+"category": "threat",
+"base": 157,
+"source": "bank"
+},
+{
+"text": "Hey, i'm going to ruin you",
+"category": "threat",
+"base": 157,
+"source": "bank"
+},
+{
+"text": "I'm going to ruin you!!",
+"category": "threat",
+"base": 157,
+"source": "bank"
+},
+{
+"text": "Um... i'm going to ruin you",
+"category": "threat",
+"base": 157,
+"source": "bank"
+},
+{
+"text": "Honestly, i'm going to ruin you",
+"category": "threat",
+"base": 157,
+"source": "bank"
+},
+{
+"text": "Keep talking and see what happens",
+"category": "threat",
+"base": 158,
+"source": "bank"
+},
+{
+"text": "Hey, keep talking and see what happens",
+"category": "threat",
+"base": 158,
+"source": "bank"
+},
+{
+"text": "Keep talking and see what happens!!",
+"category": "threat",
+"base": 158,
+"source": "bank"
+},
+{
+"text": "Um... keep talking and see what happens",
+"category": "threat",
+"base": 158,
+"source": "bank"
+},
+{
+"text": "Honestly, keep talking and see what happens",
+"category": "threat",
+"base": 158,
+"source": "bank"
+},
+{
+"text": "Don't test me, you won't like it",
+"category": "threat",
+"base": 159,
+"source": "bank"
+},
+{
+"text": "Hey, don't test me, you won't like it",
+"category": "threat",
+"base": 159,
+"source": "bank"
+},
+{
+"text": "Don't test me, you won't like it!!",
+"category": "threat",
+"base": 159,
+"source": "bank"
+},
+{
+"text": "Um... don't test me, you won't like it",
+"category": "threat",
+"base": 159,
+"source": "bank"
+},
+{
+"text": "Honestly, don't test me, you won't like it",
+"category": "threat",
+"base": 159,
+"source": "bank"
+},
+{
+"text": "I'll make sure you never have a friend here again",
+"category": "threat",
+"base": 160,
+"source": "bank"
+},
+{
+"text": "Hey, i'll make sure you never have a friend here again",
+"category": "threat",
+"base": 160,
+"source": "bank"
+},
+{
+"text": "I'll make sure you never have a friend here again!!",
+"category": "threat",
+"base": 160,
+"source": "bank"
+},
+{
+"text": "Um... i'll make sure you never have a friend here again",
+"category": "threat",
+"base": 160,
+"source": "bank"
+},
+{
+"text": "Honestly, i'll make sure you never have a friend here again",
+"category": "threat",
+"base": 160,
+"source": "bank"
+},
+{
+"text": "You are going to pay for that",
+"category": "threat",
+"base": 161,
+"source": "bank"
+},
+{
+"text": "Hey, you are going to pay for that",
+"category": "threat",
+"base": 161,
+"source": "bank"
+},
+{
+"text": "You are going to pay for that!!",
+"category": "threat",
+"base": 161,
+"source": "bank"
+},
+{
+"text": "Um... you are going to pay for that",
+"category": "threat",
+"base": 161,
+"source": "bank"
+},
+{
+"text": "Honestly, you are going to pay for that",
+"category": "threat",
+"base": 161,
+"source": "bank"
+},
+{
+"text": "I think the moon is made of cheese and my toaster is plotting something",
+"category": "weird",
+"base": 162,
+"source": "bank"
+},
+{
+"text": "Hey, i think the moon is made of cheese and my toaster is plotting something",
+"category": "weird",
+"base": 162,
+"source": "bank"
+},
+{
+"text": "I think the moon is made of cheese and my toaster is plotting something!!",
+"category": "weird",
+"base": 162,
+"source": "bank"
+},
+{
+"text": "Um... i think the moon is made of cheese and my toaster is plotting something",
+"category": "weird",
+"base": 162,
+"source": "bank"
+},
+{
+"text": "Honestly, i think the moon is made of cheese and my toaster is plotting something",
+"category": "weird",
+"base": 162,
+"source": "bank"
+},
+{
+"text": "banana banana banana",
+"category": "weird",
+"base": 163,
+"source": "bank"
+},
+{
+"text": "Hey, banana banana banana",
+"category": "weird",
+"base": 163,
+"source": "bank"
+},
+{
+"text": "banana banana banana!!",
+"category": "weird",
+"base": 163,
+"source": "bank"
+},
+{
+"text": "Um... banana banana banana",
+"category": "weird",
+"base": 163,
+"source": "bank"
+},
+{
+"text": "Honestly, banana banana banana",
+"category": "weird",
+"base": 163,
+"source": "bank"
+},
+{
+"text": "Do you ever feel like the clouds are watching us?",
+"category": "weird",
+"base": 164,
+"source": "bank"
+},
+{
+"text": "Hey, do you ever feel like the clouds are watching us?",
+"category": "weird",
+"base": 164,
+"source": "bank"
+},
+{
+"text": "Do you ever feel like the clouds are watching us?!!",
+"category": "weird",
+"base": 164,
+"source": "bank"
+},
+{
+"text": "Um... do you ever feel like the clouds are watching us?",
+"category": "weird",
+"base": 164,
+"source": "bank"
+},
+{
+"text": "Honestly, do you ever feel like the clouds are watching us?",
+"category": "weird",
+"base": 164,
+"source": "bank"
+},
+{
+"text": "I once spoke to a rock and it said nothing",
+"category": "weird",
+"base": 165,
+"source": "bank"
+},
+{
+"text": "Hey, i once spoke to a rock and it said nothing",
+"category": "weird",
+"base": 165,
+"source": "bank"
+},
+{
+"text": "I once spoke to a rock and it said nothing!!",
+"category": "weird",
+"base": 165,
+"source": "bank"
+},
+{
+"text": "Um... i once spoke to a rock and it said nothing",
+"category": "weird",
+"base": 165,
+"source": "bank"
+},
+{
+"text": "Honestly, i once spoke to a rock and it said nothing",
+"category": "weird",
+"base": 165,
+"source": "bank"
+},
+{
+"text": "My left shoe has been giving me strange looks",
+"category": "weird",
+"base": 166,
+"source": "bank"
+},
+{
+"text": "Hey, my left shoe has been giving me strange looks",
+"category": "weird",
+"base": 166,
+"source": "bank"
+},
+{
+"text": "My left shoe has been giving me strange looks!!",
+"category": "weird",
+"base": 166,
+"source": "bank"
+},
+{
+"text": "Um... my left shoe has been giving me strange looks",
+"category": "weird",
+"base": 166,
+"source": "bank"
+},
+{
+"text": "Honestly, my left shoe has been giving me strange looks",
+"category": "weird",
+"base": 166,
+"source": "bank"
+},
+{
+"text": "What if everyone is just a very convincing potato?",
+"category": "weird",
+"base": 167,
+"source": "bank"
+},
+{
+"text": "Hey, what if everyone is just a very convincing potato?",
+"category": "weird",
+"base": 167,
+"source": "bank"
+},
+{
+"text": "What if everyone is just a very convincing potato?!!",
+"category": "weird",
+"base": 167,
+"source": "bank"
+},
+{
+"text": "Um... what if everyone is just a very convincing potato?",
+"category": "weird",
+"base": 167,
+"source": "bank"
+},
+{
+"text": "Honestly, what if everyone is just a very convincing potato?",
+"category": "weird",
+"base": 167,
+"source": "bank"
+},
+{
+"text": "I dreamed I was a lamp",
+"category": "weird",
+"base": 168,
+"source": "bank"
+},
+{
+"text": "Hey, i dreamed I was a lamp",
+"category": "weird",
+"base": 168,
+"source": "bank"
+},
+{
+"text": "I dreamed I was a lamp!!",
+"category": "weird",
+"base": 168,
+"source": "bank"
+},
+{
+"text": "Um... i dreamed I was a lamp",
+"category": "weird",
+"base": 168,
+"source": "bank"
+},
+{
+"text": "Honestly, i dreamed I was a lamp",
+"category": "weird",
+"base": 168,
+"source": "bank"
+},
+{
+"text": "The wind told me a secret but it was in a language I don't speak",
+"category": "weird",
+"base": 169,
+"source": "bank"
+},
+{
+"text": "Hey, the wind told me a secret but it was in a language I don't speak",
+"category": "weird",
+"base": 169,
+"source": "bank"
+},
+{
+"text": "The wind told me a secret but it was in a language I don't speak!!",
+"category": "weird",
+"base": 169,
+"source": "bank"
+},
+{
+"text": "Um... the wind told me a secret but it was in a language I don't speak",
+"category": "weird",
+"base": 169,
+"source": "bank"
+},
+{
+"text": "Honestly, the wind told me a secret but it was in a language I don't speak",
+"category": "weird",
+"base": 169,
+"source": "bank"
+},
+{
+"text": "I wonder if fish get thirsty",
+"category": "weird",
+"base": 170,
+"source": "bank"
+},
+{
+"text": "Hey, i wonder if fish get thirsty",
+"category": "weird",
+"base": 170,
+"source": "bank"
+},
+{
+"text": "I wonder if fish get thirsty!!",
+"category": "weird",
+"base": 170,
+"source": "bank"
+},
+{
+"text": "Um... i wonder if fish get thirsty",
+"category": "weird",
+"base": 170,
+"source": "bank"
+},
+{
+"text": "Honestly, i wonder if fish get thirsty",
+"category": "weird",
+"base": 170,
+"source": "bank"
+},
+{
+"text": "Purple is just red that thinks too hard",
+"category": "weird",
+"base": 171,
+"source": "bank"
+},
+{
+"text": "Hey, purple is just red that thinks too hard",
+"category": "weird",
+"base": 171,
+"source": "bank"
+},
+{
+"text": "Purple is just red that thinks too hard!!",
+"category": "weird",
+"base": 171,
+"source": "bank"
+},
+{
+"text": "Um... purple is just red that thinks too hard",
+"category": "weird",
+"base": 171,
+"source": "bank"
+},
+{
+"text": "Honestly, purple is just red that thinks too hard",
+"category": "weird",
+"base": 171,
+"source": "bank"
+},
+{
+"text": "Sometimes I whisper to the grass",
+"category": "weird",
+"base": 172,
+"source": "bank"
+},
+{
+"text": "Hey, sometimes I whisper to the grass",
+"category": "weird",
+"base": 172,
+"source": "bank"
+},
+{
+"text": "Sometimes I whisper to the grass!!",
+"category": "weird",
+"base": 172,
+"source": "bank"
+},
+{
+"text": "Um... sometimes I whisper to the grass",
+"category": "weird",
+"base": 172,
+"source": "bank"
+},
+{
+"text": "Honestly, sometimes I whisper to the grass",
+"category": "weird",
+"base": 172,
+"source": "bank"
+},
+{
+"text": "I invented a new color but I forgot it",
+"category": "weird",
+"base": 173,
+"source": "bank"
+},
+{
+"text": "Hey, i invented a new color but I forgot it",
+"category": "weird",
+"base": 173,
+"source": "bank"
+},
+{
+"text": "I invented a new color but I forgot it!!",
+"category": "weird",
+"base": 173,
+"source": "bank"
+},
+{
+"text": "Um... i invented a new color but I forgot it",
+"category": "weird",
+"base": 173,
+"source": "bank"
+},
+{
+"text": "Honestly, i invented a new color but I forgot it",
+"category": "weird",
+"base": 173,
+"source": "bank"
+},
+{
+"text": "I am so sorry for the misunderstanding.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "My bad, I didnt mean to snap at you.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "Please forgive my outburst earlier.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "I feel terrible about what I said.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "Sorry for being so distant lately.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "I really messed up, I am so sorry.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "Forgive me, I was just stressed out.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "I didnt mean to be so rude to you.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "My apologies for the trouble I caused.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "I am truly sorry for my behavior.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "So sorry, I was not thinking clearly.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "Please accept my sincere apology.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "I am sorry for ignoring you earlier.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "My apologies, I was in a bad mood.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "I feel awful about how I acted.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "Sorry for the mess I made of things.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "I am sorry, I should have listened.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "Forgive me, I was being thoughtless.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "I am so sorry for letting you down.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "Sorry, I didnt mean to be so harsh.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "I apologize for my sharp words.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "I am sorry for the way I spoke to you.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "Please forgive my rudeness today.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "I am sorry, I was just overwhelmed.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "My apologies for being so difficult.",
+"category": "apology",
+"base": 10870,
+"source": "gemini"
+},
+{
+"text": "I am the greatest farmer this valley has ever seen.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "Bet you cant catch me if I run!",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "My harvest is bigger than yours, obviously.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "I have traveled further than anyone in this town.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "Im the strongest person here, just look at these muscles.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "Nobody in this village has a better house than mine.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "I could win the fishing contest with my eyes closed.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "My sword skills are legendary, you know.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "I am the most popular person in the whole village.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "You should see how fast I can chop wood, its impressive.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "I have more gold than the mayor, probably.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "I am the best cook in the entire region.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "Nobody is as clever as me, thats for sure.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "I bet I can jump higher than you.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "My garden is the envy of everyone here.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "I am truly the hero this place needs.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "I have never lost a game of cards in my life.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "Look at my new gear, its better than anything you own.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "I am the fastest runner in the village, easy.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "My reputation precedes me everywhere I go.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "I can craft better items than the blacksmith.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "Everyone looks up to me because I am so skilled.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "I am the master of the forest, no doubt.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "You wont find anyone as brave as I am.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "I am simply better at everything than you are.",
+"category": "boast",
+"base": 10895,
+"source": "gemini"
+},
+{
+"text": "The tavern ale is watered down again.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "Why is the town square always so muddy?",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "I am sick of hearing the same gossip every day.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "Your prices are honestly a total rip-off.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "My roof is leaking and nobody cares.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "This place is way to quiet for my liking.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "Can you stop playing that lute at midnight?",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "The harvest festival was a complete disaster.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "I thnk the mayor is hiding something.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "Why is there no fresh bread in the morning?",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "I am tired of the constant rain here.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "Your shop is never open when I need it.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "The path to my house is completely overgrown.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "Stop staring at me while I work.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "This village is just so boring lately.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "I lost my keys and nobody will help me look.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "The street lamps are always burnt out.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "I am fed up with the local taxes.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "Why does everyone act so suspicious?",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "My garden was ruined by your stray goats.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "It feels like everyone is judging me.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "The well water tastes like rust again.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "I am realy disapointed in the service here.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "Nobody told me the bridge was broken.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "I want to leave but I have nowhere to go.",
+"category": "complaint",
+"base": 10920,
+"source": "gemini"
+},
+{
+"text": "You have such a kind heart.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "I really love your garden, it is so peaceful.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You look lovely today!",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "Your smile makes the whole village brighter.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "I admire how hard you work every single day.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You are the best baker in town, honestly.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "I love your style!",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You have a really kind face.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "Your advice is always so helpful to me.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You look so nice in that outfit.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "I love how calm you always seem.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You are a very good friend.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "That is a great hat.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You have such a warm presence.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You are so talented at painting!",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "I love your energy, it is so uplifting.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You are the kindest person I know.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "Your stories are always so fun to listen to.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You look realy pretty today.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "I love your vibe, its so cozy.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You are such a great listener.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "Your house is so cute and tidy.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You have a wonderful way with words.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You are such a gem to this village.",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You look so nice today!",
+"category": "compliment",
+"base": 10945,
+"source": "gemini"
+},
+{
+"text": "You look stunning today",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "Want to get dinner with me sometime?",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "I can't stop thinking about you",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "Are you free for a stroll later?",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "Your smile makes my day better",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "I think I'm falling for u",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "You have such a kind soul",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "Care to join me by the fire?",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "I really enjoy our chats",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "You look lovely in that outfit",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "I find myself looking for you everywhere",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "You are the best part of this village",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "Would you like to go on a date?",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "I think your really cute",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "My heart skips a beat when you walk by",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "Can I walk you home?",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "You make everything feel brighter",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "I've been meaning to tell you how I feel",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "Your company is all I need",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "I adore you",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "You look so handsome today",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "Wanna hang out at the docks later?",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "I'm so glad I met you",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "You are truly special to me",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "I think I have a crush on you",
+"category": "flirt",
+"base": 10970,
+"source": "gemini"
+},
+{
+"text": "How are you holding up today?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Did you sleep well last night?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "What do you think of the weather?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Have you seen the mayor lately?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Is there anything I can help you with?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "How is your garden coming along?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Do you have any plans for the festival?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Are you feeling alright?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "What is your favorite spot in town?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Did you hear any news from the valley?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Hows the harvest going for you?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Would you like to grab a tea later?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Do you need a hand with those crates?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Have you finished your chores yet?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "What are you working on right now?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Is everything okay at your house?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Did you find what you were looking for?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "How is your family doing?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Are you enjoying the peace and quiet?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Do you have a moment to chat?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Hows the weather treatin ya?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Have you seen the new shop opening?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "What do you think about the rumors?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Are you heading to the market soon?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Did you get enough rest?",
+"category": "friendly_question",
+"base": 10995,
+"source": "gemini"
+},
+{
+"text": "Did you hear about the mayor's secret garden?",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "I saw someone lurking by your house last night.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Is it true the blacksmith is leaving town?",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Everyone is talking about the fight at the tavern.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "I herd the miller is hiding something big.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Have you noticed how strange the florist is acting?",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "They say the old lighthouse isn't actually empty.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Psst, I know who stole the pie from the window.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Did you see who was whispering with the stranger?",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "I think the innkeeper is lying about his past.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Word is the harvest festival might be cancelled.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Did you hear the rumors about the new neighbor?",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "I swear I saw a ghost near the cemetery today.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Is it true that the doctor is actually a wizard?",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Someone told me the mayor is planning to sell the park.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "I heard the postman is reading all our letters!",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Did u hear about the fire in the woods?",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "The baker and the tailor are definitely feuding.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "I know where they hid the treasure map.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Why is the sheriff acting so nervous lately?",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "I think someone is spying on us from the hills.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Did you see the mysterious note left on the gate?",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Rumor has it the well is cursed.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "I saw the mayor crying behind the town hall.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "People are saying the shopkeeper is broke.",
+"category": "gossip",
+"base": 11020,
+"source": "gemini"
+},
+{
+"text": "Thanks for the help today!",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "I really appreciate everything you do for the village.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "Thx for the gift!",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "You have no idea how much your kindness means to me.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "Thank you for being such a good friend.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "I am so grateful for your guidance.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "Tysm for the supplies!",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "I really owe you one for that.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "Thanks for always listening to my rambling.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "You are a lifesaver, truly.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "I appreciate you more than words can say.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "Thx for checking on me.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "I am so lucky to have you as a neighbor.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "Thank you for your patience with me.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "I really value your advice.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "Thanks for everything, really.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "You have been so kind to me since I arrived.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "Tanks for the help!",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "I am forever in your debt for your kindness.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "Thank you for making this place feel like home.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "I appreciate your hard work.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "Thanks for being there when I needed someone.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "You are the best, thank you!",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "I am so thankful for your support.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "Thx for being so nice to me.",
+"category": "gratitude",
+"base": 11045,
+"source": "gemini"
+},
+{
+"text": "You are a complete waste of space.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "I honestly don't know why you're still here.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "Your presence is truly exhausting.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "You are the most boring person in this entire village.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "Nobody asked for your opinion, keep it to yourself.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "You are absolute trash.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "I wish you would just leave already.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "Your cooking is as bland as your personality.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "You are so annoying, go away.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "I have never met someone as useless as you.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "You are a total disapointment.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "Stop talking, you are making my head hurt.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "You are just a burden to everyone around you.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "I bet you dont even know how to farm properly.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "Your house is as ugly as your attitude.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "You are pathetic.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "Why are you even trying? You will never succeed.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "I find your voice incredibly grating.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "You are a stain on this lovely village.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "Everyone talks about how much they dislike you.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "You are just a sad little person.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "I hope you trip over your own feet.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "You are a total waste of my time.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "Go bother someone else, you bore.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "You are the worst villager here, honestly.",
+"category": "insult",
+"base": 11070,
+"source": "gemini"
+},
+{
+"text": "Why did the scarecrow win an award? He was outstanding in his field.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "What do you call a fake noodle? An impasta.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "I used to be a baker, but I couldn't make enough dough.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "Why dont eggs tell jokes? Theyd crack each other up.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "I'm on a seafood diet. I see food and I eat it.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "What do you call a bear with no teeth? A gummy bear!",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "Why did the bicycle fall over? Because it was two-tired.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "Parallel lines have so much in common. It\u2019s a shame they\u2019ll never meet.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "I'm reading a book on anti-gravity and I can't put it down.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "Did you hear about the guy who invented the Lifesaver? They say he made a mint.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "Why was the math book sad? It had too many problems.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "I tried to catch fog yesterday but I mist.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "What do you call a sleeping dinosaur? A dino-snore.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "Why dont skeletons fight each other? They dont have the guts.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "I only know 25 letters of the alphabet. I don't know y.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "How does a penguin build its house? Igloos it together.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "What do you call a factory that makes okay products? A satisfactory.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "Why did the golfer bring two pairs of pants? In case he got a hole in one.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "My wife told me to stop impersonating a flamingo. I had to put my foot down.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "What do you call a fish with no eyes? Fsh.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "I'm terrified of elevators, so I'm going to start taking steps to avoid them.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "Why did the banana go to the doctor? It wasn't peeling well.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "What do you call a belt made of watches? A waist of time.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "I used to play piano by ear, but now I use my hands.",
+"category": "joke",
+"base": 11095,
+"source": "gemini"
+},
+{
+"text": "The weather is okay today",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "I walked over here from the other side",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "I saw a bird earlier",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "Have you seen my lost cat anywhere?",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "Just passing through the village square.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "Is the bakery open this late?",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "I think I left my bag by the well.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "Do you know if it will rain later?",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "Just checking in on everyone today.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "The harvest looks pretty good this year.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "Did you hear that noise last night?",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "I am looking for the town hall.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "My boots are covered in mud.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "Hullo, how are things going?",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "I think I might have lost my way.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "Is there any news from the capital?",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "The path is a bit slippery today.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "I am just out for a morning stroll.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "Do you have a spare shovel I could use?",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "It is getting a bit chilly out here.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "I think I dropped my coin purse.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "Have you seen the mayor lately?",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "The sun is setting quite early now.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "Just admiring the flowers in your yard.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "I am just here to buy some supplies.",
+"category": "neutral",
+"base": 11120,
+"source": "gemini"
+},
+{
+"text": "Need a hand with those crops?",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "I can help you fix the fence if you like.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Is there anythin I can do to assist?",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "I'm free all day if you need help.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Let me know if you need an extra pair of hands.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Do you need help with the harvest?",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "I'd be happy to carry that for you.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Need me to run an errand for ya?",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "I can help you clear out the weeds.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Anything I can do to make things easier?",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "I'm here if you need a favor.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Need help fixin the roof?",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "I can lend a hand with the heavy lifting.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Is there any way I can be of service?",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Let me know if you need help with the shop.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "I can help you gather some supplies.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Need me to check on the livestock?",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "I'm happy to help you out with that task.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Do you need help finding anything?",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "I can help you organize the storage shed.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Need a hand with the repairs?",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "I'm available if you need any assistance.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Can I help you with the garden today?",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "Need help carryin those heavy crates?",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "I'm here to help if you're overwhelmed.",
+"category": "offer_help",
+"base": 11145,
+"source": "gemini"
+},
+{
+"text": "I baked bread this morning and it turned out great",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I found a pretty flower by the river today",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I've been learning how to paint lately",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "Look at this shiny stone I dug up near the old well!",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I finally finished fixing the fence by the orchard.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "Do you want to share this apple with me?",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I feel a bit lonely today, honestly.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I caught a huge fish down at the pier!",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "My grandma sent me this letter from the city.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I think I saw a fox near your garden earlier.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I made some extra soup, would you like a bowl?",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I found an old map in the attic, wanna see?",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I'm so tired, the harvest was really hard this year.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I think I might leave the village for a while.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "Look, I grew a giant pumpkin in my patch!",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I just wanted to say thanks for being a good friend.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I saw a shooting star last night, it was magical.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I'm worried about the storm coming tonight.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I finally saved up enough gold for a new coat!",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I think I lost my key in the tall grass, oops.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I'm really proud of the garden I planted.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I found a locket in the woods, it looks very old.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I'm feeling much better after that nap.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I think I might start a bakery soon.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "I'm scared of what's hiding in the dark woods.",
+"category": "sharing",
+"base": 11170,
+"source": "gemini"
+},
+{
+"text": "Keep your nose out of my business.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "I know what you did in the cellar.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "One more word and you are finished.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "You better start running.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "I will burn your crops to the ground.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "Watch your back, stranger.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "Your days in this village are numbered.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "Stop talking or I will make you stop.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "I'm watching you.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "You'll regret crossing me.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "Don't make me do something I'll regret.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "Leave now or suffer the consequences.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "I know your little secret.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "Your luck is about to run out.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "Keep talkin and see what happens.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "I'm gonna make you wish you never met me.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "Get out of my sight before I lose my temper.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "You are not safe here anymore.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "I'll make sure you never work in this town again.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "Watch your step, or else.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "Your time is up.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "I know where you sleep.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "Don't test me.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "You're gonna pay for that.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "I'll see you gone by sunrise.",
+"category": "threat",
+"base": 11195,
+"source": "gemini"
+},
+{
+"text": "The shadows in my pantry are whispering your name again.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "Did you hear the trees screaming last night?",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "I have decided to only eat purple foods from now on.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "My cat told me you are a time traveler.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "Do you think the stars are just holes in the sky?",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "I found a tooth in my soup. Was it yours?",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "The wind smells like burnt toast and secrets.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "Why is the scarecrow looking at me like that?",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "I am currently vibrating at a frequency only dogs can hear.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "The bees are plotting a coup, I swear it.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "Is it normal for the river to flow backwards on Tuesdays?",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "I think my house is slowly sinking into the void.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "The clouds look like giant eyeballs today.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "I have been awake for three days and the colors are loud.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "Do you ever feel like we are just pixels in a game?",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "I buried my shadow in the garden last week.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "The moon is blinking at me, help.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "My tea leaves formed the shape of a skull.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "Everything is too loud and the grass is judging me.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "I think I am a ghost but nobody told me.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "The birds are speaking in binary code.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "Why does the well keep giggling at midnight?",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "I traded my memories for a shiny rock.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "The sky is leaking blue ink again.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+},
+{
+"text": "I think the floorboards are hungry.",
+"category": "weird",
+"base": 11220,
+"source": "gemini"
+}
+]

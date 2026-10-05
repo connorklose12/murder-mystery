@@ -1,0 +1,5 @@
+
+===== BUILD STOPPED: em++ was not found, so nothing was changed and your current game is still there. =====
+===== This PowerShell window has not been set up for Emscripten. Run these two lines, then run build-web.bat again:
+=====     Set-ExecutionPolicy -Scope Process Bypass
+=====     C:\emsdk\emsdk_env.ps1

@@ -1,0 +1,9 @@
+{
+  "n": 100,
+  "labeler": "standin",
+  "same_bucket": 0.37,
+  "within_3_points": 0.47,
+  "same_direction": 0.6868686868686869,
+  "correlation": 0.4505806066106569,
+  "shove_agreement": 0.71
+}

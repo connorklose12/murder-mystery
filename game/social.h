@@ -201,7 +201,7 @@ inline void SocialTick(Social& s, const SocialView& v, float now) {
     }
 }
 
-// ---------------- the player hits an NPC with the stick ----------------
+//  the player hits an NPC with the stick 
 enum Reaction { REACT_NONE, REACT_THANK, REACT_CONFRONT };
 struct HitResult {
     float opinionDelta[MAX_NPCS];   // change to each NPC's opinion of the player
@@ -241,7 +241,7 @@ inline void GossipOpinions(const Social& s, float* opinion) {
     for (int i = 0; i < s.n; i++) opinion[i] = next[i];
 }
 
-// ---------------- NPCs fighting each other ----------------
+//  NPCs fighting each other
 // Anger is just affinity going very negative. Really angry NPCs go after their worst enemy; short-tempered
 // ones that are only mildly annoyed sometimes throw a punch just to provoke. Punches make the victim madder
 // at the attacker (which is how feuds snowball); someone far enough gone will kill. NPCs have no HP.
@@ -299,7 +299,7 @@ inline Attack SocialAttack(Social& s, const SocialView& v, int a, int victim, fl
     return ATTACK_PUNCH;
 }
 
-// ---------------- the player stirring things up (gossip questions) ----------------
+// the player stirring things up (gossip questions) 
 // An NPC asks "who said / did X?" and the player names someone. kind 0 = a nasty rumor, 1 = a kind deed,
 // 2 = a secret admirer. Whoever the player names becomes the asker's enemy, friend, or (repeatedly) lover.
 inline void SocialRumor(Social& s, int asker, int target, int kind) {

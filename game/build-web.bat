@@ -5,7 +5,7 @@ setlocal enabledelayedexpansion
 cd /d "%~dp0"
 
 set "MISSING="
-for %%F in (main.cpp shell.html social.h jsonutil.h npc_brain.h npc_brain_weights.h dynamics.h persona.h predictions.h dialogue.json config.json) do (
+for %%F in (main.cpp shell.html social.h jsonutil.h npc_brain.h npc_brain_weights.h dynamics.h persona.h predictions.h memory.h mcts.h dialogue.json config.json assets\embed.bin raylib\include\raylib.h raylib\lib\libraylib.a) do (
     if not exist "%%F" set "MISSING=!MISSING! %%F"
 )
 if defined MISSING (
@@ -16,6 +16,16 @@ if defined MISSING (
     exit /b 1
 )
 
+rem make sure Emscripten is set up in THIS window BEFORE anything is deleted (a fresh PowerShell window needs the two lines below first)
+call em++ --version >nul 2>nul
+if errorlevel 1 (
+    echo.
+    echo ===== BUILD STOPPED: em++ was not found, so nothing was changed and your current game is still there. =====
+    echo ===== This PowerShell window has not been set up for Emscripten. Run these two lines, then run build-web.bat again:
+    echo =====     Set-ExecutionPolicy -Scope Process Bypass
+    echo =====     C:\emsdk\emsdk_env.ps1
+    exit /b 1
+)
 if not exist ..\MyProject\wwwroot mkdir ..\MyProject\wwwroot
 rem remove the previous build first: if this build fails, nothing stale is left behind to play by mistake
 del /q ..\MyProject\wwwroot\index.html ..\MyProject\wwwroot\index.js ..\MyProject\wwwroot\index.wasm ..\MyProject\wwwroot\index.data 2>nul

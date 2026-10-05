@@ -1,14 +1,23 @@
-// Unit tests. Zero dependencies (no raylib, no test framework) so it builds and runs anywhere:
+#if defined(__GNUC__) && !defined(__clang__)
+#pragma GCC optimize("O2")   // the Monte Carlo benchmark below runs thousands of simulated villages
+#endif
+// Unit tests. Zero dependencies (no raylib, no test framework) so it builds and runs anywhere, us this:
 //   g++ -std=c++17 tests.cpp -o tests && ./tests
 #include "jsonutil.h"
 #include "npc_brain.h"
+#include "npc_brain_parity.h"
 #include "social.h"
 #include "persona.h"
 #include "dynamics.h"
 #include "predictions.h"
+#include "memory.h"
+#include "mcts.h"
 #include <set>
 #include <cstdio>
 #include <cmath>
+#include <tuple>
+#include <fstream>
+#include <random>
 
 static int failures = 0;
 
@@ -33,7 +42,22 @@ static int CountEvents(const Social& s, EventType t) {
     int c = 0; for (const SocialEvent& e : s.events) if (e.type == t) c++; return c;
 }
 
-int main() {
+// ---- the paraphrase benchmark data: ten subjects the villagers ask about, and twelve free-form ways a player might state each (even rows were used to choose the embedding recipe, odd rows are the untouched test half) ----
+static const char* BENCH_SUBJECTS[10] = {"favorite food", "favorite animal", "favorite color", "favorite season", "dream vacation spot", "favorite kind of music", "favorite game", "biggest fear", "favorite hobby", "dream pet"};
+static const char* BENCH_PHRASES[10][12] = {
+    {"I'm obsessed with sushi", "nothing beats a good burrito", "pasta is my comfort meal", "I could eat ramen every single day", "my grandma's apple pie is unbeatable", "I'm vegan and I love falafel", "pizza with extra cheese, always", "tacos are basically my whole personality", "I crave spicy curry all the time", "give me pancakes for dinner and I'm happy", "fresh bread straight from the oven", "dumplings, hands down"},
+    {"my cat is my whole world", "dogs are the best, I have two labradors", "I adore penguins", "horses fascinate me", "I'd say owls, they look so wise", "elephants are majestic", "I love my pet rabbit", "dolphins are incredible", "foxes are my spirit animal", "I could watch otters all day", "pandas, obviously", "giraffes are so graceful"},
+    {"deep teal is gorgeous", "anything green makes me happy", "I wear purple all the time", "bright orange like a sunset", "I'm a black-clothes person", "pastel pink is so soothing", "navy blue, it's classic", "I love the yellow of sunflowers", "crimson red is my thing", "silver and gray feel calm", "turquoise reminds me of the sea", "a warm brown like old leather"},
+    {"autumn leaves are my favorite", "I live for summer beach days", "snowy winters feel magical", "spring when the flowers bloom", "I love cozy sweater weather", "nothing beats a long hot summer", "I like when it's rainy and cold", "the first snowfall of the year", "early spring mornings are perfect", "harvest time in fall", "I'm a winter person, I love frost", "warm summer evenings by the lake"},
+    {"I'd love to see Japan someday", "a beach in Greece sounds perfect", "I dream of hiking in Patagonia", "Paris in the spring", "a road trip across Iceland", "I want to go to Italy and eat my way through", "a cabin in the mountains", "a safari in Kenya", "island hopping in Thailand", "a cruise around the Caribbean", "camping under the stars in Canada", "I've always wanted to visit Egypt"},
+    {"I listen to jazz every night", "metal gets me through the week", "I play piano and love classical", "hip hop all day long", "folk songs with an acoustic guitar", "I'm into techno and dance music", "old school rock and roll", "country music reminds me of home", "I sing opera in the shower", "lo-fi beats while I study", "anything by the Beatles", "reggae makes me relax"},
+    {"I'm addicted to chess", "Zelda is my comfort game", "I play poker with friends", "Minecraft, I've built entire cities", "I love board games like Catan", "Tetris, still unbeatable", "I play video games all weekend", "Mario Kart with the family", "crosswords and sudoku", "I'm into tabletop role-playing games", "Pokemon, since I was a kid", "I like card games like bridge"},
+    {"heights terrify me", "I can't stand spiders", "I'm scared of the dark", "deep water gives me panic", "I'm afraid of being alone", "clowns freak me out", "thunderstorms make me anxious", "I have a phobia of needles", "snakes, no thank you", "I dread public speaking", "small enclosed spaces scare me", "I'm terrified of failing"},
+    {"I paint every weekend", "knitting calms me down", "I garden when I'm stressed", "I love hiking on weekends", "photography is my thing", "I bake bread for fun", "I write poetry at night", "fishing at the lake", "I collect vintage coins", "woodworking in my garage", "I do yoga every morning", "I build tiny model ships"},
+    {"I want a pet dragon", "a tiny fox as a pet would be perfect", "I'd love an owl on my shoulder", "a baby elephant would be amazing", "I'd adopt a pet penguin", "a fluffy red panda", "a talking parrot", "a pet unicorn, obviously", "I'd keep a little hedgehog", "a pet wolf sounds incredible", "a giant tortoise that lives forever", "a miniature pony in the backyard"}};
+
+int main(int argc, char** argv) {
+    bool bigRun = argc > 1 && std::string(argv[1]) == "--big";
     // ---------------- JSON helpers ----------------
     std::string j = "{\"walkSpeed\": 7.5, \"playerColor\": \"#8C46C8\", \"happy\": [\"Hi!\", \"Hello there.\"]}";
     check(JNum(j, "walkSpeed", 1) == 7.5f, "JNum reads a number");
@@ -82,7 +106,8 @@ int main() {
 
     // ---------------- the trained NPC brain ----------------
     BrainOutput favorite = RunBrain({0.8f, 0.9f, 0.5f, 0, 2, 1, 0, 0.5f, 0});
-    check(fabsf(favorite.opinionDelta - 8.243f) < 0.05f, "brain: friendly NPC + favorite color gives a strongly positive delta");
+    // (asserts the BEHAVIOUR, not one trained number, so retraining with ml/pipeline.py cannot break it)
+    check(favorite.opinionDelta > 7.0f && favorite.opinionDelta <= 10.0f && favorite.punchChance < 0.1f, "brain: friendly NPC + favorite color gives a strongly positive delta and no shoving");
     BrainOutput happyAns = RunBrain({0.8f, 0.9f, 0.5f, 0, 2, 0, 0, 0.5f, 1});
     BrainOutput madAns = RunBrain({0.8f, 0.9f, 0.5f, 0, 2, 0, 0, 0.5f, -1});
     check(happyAns.opinionDelta > 5.0f, "brain: a happy answer makes an NPC like you a lot more");
@@ -399,7 +424,7 @@ int main() {
         check(PairDynRank('p') < PairDynRank('c') && PairDynRank('c') < PairDynRank('R') && PairDynRank('R') < PairDynRank('B') && PairDynRank('n') == 99 && PairDynRank('l') == 99,
               "dynamics: dramatic relationships rank before friendly ones; bland ones are never 'notable'");
 
-        // ---- how a villager sees the player ----
+        // how a villager sees the player 
         auto F = [](float op, float tr, float ro, int talked, int hit) { PlayerFeel f; f.opinion = op; f.trust = tr; f.romance = ro; f.timesTalked = talked; f.timesHit = hit; return f; };
         check(PlayerDynCode(F(-70, 0, 90, 5, 0)) == 'H', "player dynamic: someone who hates you is hostile even if they once liked you");
         check(PlayerDynCode(F(5, 10, 0, 3, 1)) == 'G', "player dynamic: you hit them and they haven't warmed up: grudge");
@@ -417,7 +442,7 @@ int main() {
         check(UsesNickname('K') && UsesNickname('F') && UsesNickname('C') && UsesNickname('W') && !UsesNickname('H') && !UsesNickname('G') && !UsesNickname('S') && !UsesNickname('N') && !UsesNickname('U'),
               "player dynamic: friends and admirers use a pet name; others use your name");
 
-        // ---- verbal tic ----
+        //verbal tic
         std::string tic = ", mark my words.";
         check(ApplyTic("Well, that was quite the storm last night.", tic, 0.1f, 0.3f) == "Well, that was quite the storm last night, mark my words.", "tic: tacks the tag on in place of the final period");
         check(ApplyTic("Well, that was quite the storm last night.", tic, 0.9f, 0.3f) == "Well, that was quite the storm last night.", "tic: only some of the time");
@@ -487,6 +512,167 @@ int main() {
         int tics = 0, lines = 4000; TicGate gg; PersonaRng rr{12345};
         for (int i = 0; i < lines; i++) if (gg.Ready(4)) { std::string out = ApplyTic("Nice weather we are having today.", ", period.", rr.unit(), 0.45f); if (out != "Nice weather we are having today.") { gg.Used(); tics++; } }
         check(tics > lines / 7 && tics < lines / 4, "tic gate: with the gate, a tic shows up in roughly one line in five (it used to be about one in three)");
+    }
+    {   // retrieval-based memory: embeddings, recall quality on a benchmark, and storage rules
+        std::vector<float> a = Embed("the player's favorite food is pizza");
+        float norm = 0; for (float x : a) norm += x * x;
+        check(fabsf(norm - 1.0f) < 1e-4f && (int)a.size() == EMBED_DIM, "memory: an embedding is a unit-length vector of EMBED_DIM numbers");
+        check(Cosine(a, Embed("the player's favorite food is pizza")) > 0.999f, "memory: the same text has similarity 1");
+        check(Cosine(a, Embed("pizzas")) > Cosine(a, Embed("spiders")), "memory: a plural word is closer to its singular than an unrelated word is (character trigrams)");
+        check(Cosine(Embed("afraid of thunder"), Embed("biggest fear is spiders")) > 0.3f, "memory: 'afraid' and 'fear' meet through the synonym map");
+        check(Embed("").size() == (size_t)EMBED_DIM && Recall({}, "food", 3).empty(), "memory: empty text and an empty memory are handled");
+
+        // the benchmark: the game's own topic sentences (every food, hobby, dream and fear a villager can have) against 10 typical remembered facts
+        std::vector<std::string> mem = {"the player's favorite food is pizza", "the player's favorite animal is cat", "the player's favorite color is blue", "the player's favorite season is autumn",
+            "the player's dream vacation spot is Japan", "the player's favorite kind of music is jazz", "the player's favorite game is chess", "the player's biggest fear is spiders",
+            "the player's favorite hobby is painting", "the player's dream pet is a dragon"};
+        using namespace persona_data;
+        const char* labels[] = {"food food", "hobby hobby", "dream dream", "fear fear"};
+        const char* const* pools[] = {FOODS, HOBBIES, DREAMS, FEARS}; size_t sizes[] = {Count(FOODS), Count(HOBBIES), Count(DREAMS), Count(FEARS)};
+        std::vector<std::vector<int>> want = {{0}, {8}, {4, 9}, {7}};
+        int total = 0, hit = 0, falseRecall = 0;
+        for (int tp = 0; tp < 4; tp++) for (size_t i = 0; i < sizes[tp]; i++) {
+            std::string what = pools[tp][i];
+            std::string sentence = tp == 0 ? " Yellow's favorite food is " + what + ". Yellow is telling the player about it."
+                                 : tp == 1 ? " Yellow loves " + what + " and is telling the player about it."
+                                 : tp == 2 ? " Yellow dreams of " + what + " and is telling the player about it."
+                                           : " Yellow is afraid of " + what + " and is telling the player about it.";
+            std::string query = std::string(labels[tp]) + " " + sentence;
+            std::vector<Recalled> r = Recall(mem, query, 1);
+            total++; hit += !r.empty() && std::find(want[tp].begin(), want[tp].end(), r[0].index) != want[tp].end();
+            std::vector<std::string> without;   // the same villager, but the player never told them anything on this topic
+            for (int m = 0; m < (int)mem.size(); m++) if (std::find(want[tp].begin(), want[tp].end(), m) == want[tp].end()) without.push_back(mem[m]);
+            falseRecall += !Recall(without, query, 1).empty();
+        }
+        printf("      (memory benchmark: recall@1 = %d/%d correct, %d/%d wrong recalls when nothing relevant is stored; a random pick would be right 1 time in 10)\n", hit, total, falseRecall, total);
+        check(hit >= total * 95 / 100, "memory benchmark: the right fact is retrieved for at least 95% of topic sentences");
+        check(falseRecall <= total / 50, "memory benchmark: an irrelevant fact is almost never retrieved (at most 2% of cases)");
+
+        std::vector<std::string> store;
+        RememberFact(store, "the player's favorite food is pizza"); RememberFact(store, "the player's favorite animal is cat"); RememberFact(store, "the player's favorite food is tacos");
+        check(store.size() == 2 && store.back() == "the player's favorite food is tacos" && store[0] == "the player's favorite animal is cat", "memory: a newer answer about the same subject replaces the old one");
+        std::vector<std::string> many; for (int i = 0; i < 20; i++) RememberFact(many, "the player's thing" + std::to_string(i) + " is x");
+        check(many.size() == MEMORY_MAX && many.back() == "the player's thing19 is x" && many.front() == "the player's thing8 is x", "memory: only the newest MEMORY_MAX facts are kept");
+        std::vector<Recalled> two = Recall({"the player's favorite food is pizza", "the player's favorite food is pizza"}, "food food favorite food", 2);
+        check(two.size() == 2 && two[0].index == 1, "memory: on a tie the newer memory ranks first");
+    }
+    {   // semantic memory: real pretrained word vectors loaded from assets/embed.bin (built by ml/pipeline.py)
+        std::ifstream f("assets/embed.bin", std::ios::binary);
+        std::vector<unsigned char> bin((std::istreambuf_iterator<char>(f)), std::istreambuf_iterator<char>());
+        check(bin.size() > 1000000, "semantic: assets/embed.bin exists (build it with `python ml/pipeline.py embeddings`)");
+        std::vector<unsigned char> junk(500, 7);
+        check(!LoadEmbeddingTable(nullptr, 0) && !LoadEmbeddingTable(junk.data(), 500) && !LoadEmbeddingTable(bin.data(), 10) && !LoadEmbeddingTable(bin.data(), (int)bin.size() / 2) && !SemTable().loaded,
+              "semantic: empty, garbage and truncated tables are rejected and leave the old backend in place");
+        check(LoadEmbeddingTable(bin.data(), (int)bin.size()) && SemTable().dim == 100, "semantic: the real table loads (100 dimensions)");
+        std::vector<float> e = Embed("I'm obsessed with sushi"); float nn = 0; for (float x : e) nn += x * x;
+        check((int)e.size() == 200 && fabsf(nn - 1.0f) < 1e-3f, "semantic: an embedding is a unit-length 200-number vector (mean + max of the word vectors)");
+        check(Cosine(Embed("zzqxv"), Embed("zzqxv")) > 0.999f && Cosine(Embed("zzqxv"), Embed("qqvxz")) < 0.5f, "semantic: an unknown word still matches itself but not a different unknown word");
+
+        // the paraphrase benchmark: for each subject, a store of 10 memories (one true paraphrase + one from every other subject); the query is the subject name; is the true one recalled?
+        // Run on the untouched half (odd rows) with the lexical backend and then the semantic one.
+        auto mem = [](const char* p) { return std::string("the player said: \"") + p + "\""; };
+        double recall[2] = {0, 0}, falseRecall[2] = {0, 0}, rightRecall[2] = {0, 0}; int tot = 0;
+        SemanticTable keep = SemTable();
+        for (int mode = 0; mode < 2; mode++) {
+            if (mode == 0) SemTable() = SemanticTable(); else SemTable() = keep;
+            std::mt19937 rng(1); int hit = 0, n = 0, gatedRight = 0, gatedFalse = 0;
+            for (int s = 0; s < 10; s++) for (int k = 1; k < 12; k += 2) for (int tr = 0; tr < 8; tr++) {
+                std::vector<std::string> store = {mem(BENCH_PHRASES[s][k])};
+                for (int o = 0; o < 10; o++) if (o != s) store.push_back(mem(BENCH_PHRASES[o][1 + 2 * (rng() % 6)]));
+                std::vector<Recalled> best = Recall(store, BENCH_SUBJECTS[s], 1, -1.0f, 0.0f); hit += best[0].index == 0; n++;                  // raw ranking: is the true memory ranked first?
+                std::vector<Recalled> gated = Recall(store, BENCH_SUBJECTS[s], 1); gatedRight += !gated.empty() && gated[0].index == 0;          // with the game's thresholds
+                gatedFalse += !Recall(std::vector<std::string>(store.begin() + 1, store.end()), BENCH_SUBJECTS[s], 1).empty();                   // nothing on-topic stored: anything recalled is a false recall
+            }
+            recall[mode] = (double)hit / n; rightRecall[mode] = (double)gatedRight / n; falseRecall[mode] = (double)gatedFalse / n; tot = n;
+        }
+        printf("      (paraphrase benchmark, %d queries, untouched half, chance = 10%%: recall@1 lexical %.1f%% -> semantic %.1f%%; with the game's thresholds: right memory recalled %.1f%% -> %.1f%%, false recall when nothing on-topic is stored %.1f%% -> %.1f%%)\n",
+               tot, 100 * recall[0], 100 * recall[1], 100 * rightRecall[0], 100 * rightRecall[1], 100 * falseRecall[0], 100 * falseRecall[1]);
+        check(recall[1] >= 0.50, "semantic benchmark: the pretrained embeddings rank the true paraphrased memory first at least half the time");
+        check(recall[1] >= recall[0] + 0.20, "semantic benchmark: at least 20 points better than the hashed lexical embeddings on free-form paraphrases");
+        check(rightRecall[1] >= 0.30 && falseRecall[1] <= 0.30, "semantic benchmark: with the game's thresholds the right memory is recalled >=30% of the time and a false recall happens <=30% of the time");
+        // C++ and Python must agree: the embedding of a text, and the whole path text -> embedding -> probe -> net (the vectors are written by ml/pipeline.py)
+        float worstE = 0; int okE = 0;
+        for (int i = 0; i < 4; i++) { std::vector<float> v = Embed(PARITY_EMB_TEXT[i]); float d = 0; for (int k = 0; k < 10; k++) d = std::max(d, fabsf(v[k] - PARITY_EMB_HEAD[i][k])); worstE = std::max(worstE, d); okE += d < 2e-3f; }
+        float worstB = 0; int okB = 0;
+        for (int i = 0; i < 8; i++) {
+            BrainInput in = {PARITY_IN[i][0], PARITY_IN[i][1], PARITY_IN[i][2], PARITY_IN[i][3], PARITY_IN[i][4], PARITY_IN[i][5], PARITY_IN[i][6], PARITY_IN[i][7], PARITY_IN[i][8]};
+            MessageFeatures(PARITY_TEXT[i], in.msg);
+            BrainOutput o = RunBrain(in);
+            float d = std::max(fabsf(o.opinionDelta - PARITY_OUT[i][0]), fabsf(o.punchChance - PARITY_OUT[i][1]));
+            worstB = std::max(worstB, d); okB += d < 2e-2f;
+        }
+        printf("      (parity with the Python pipeline: embeddings worst difference %.6f; text -> net outputs worst difference %.5f opinion points / probability)\n", worstE, worstB);
+        check(okE == 4, "parity: the C++ embedding of a text matches Python's");
+        check(okB == 8, "parity: text -> embedding -> message probe -> net gives the same answer in C++ and Python on 8 unseen messages");
+        float none[MSG_DIM], nice[MSG_DIM], rude[MSG_DIM]; MessageFeatures("", none); MessageFeatures("you are wonderful, thank you so much", nice); MessageFeatures("you are a stupid idiot and I hate you", rude);
+        BrainInput base = {0.5f, 0.5f, 0.5f, 0, 3, 0, 0.0f, 0.5f, 0};
+        BrainInput bn = base, br = base; for (int k = 0; k < MSG_DIM; k++) { bn.msg[k] = nice[k]; br.msg[k] = rude[k]; }
+        check(none[0] == 0.0f && none[1] == 0.0f, "brain: an empty message adds nothing");
+        check(RunBrain(bn).opinionDelta > RunBrain(br).opinionDelta + 1.0f && RunBrain(br).punchChance >= RunBrain(bn).punchChance, "brain: a warm typed message raises opinion more than a rude one, and the rude one is at least as likely to get a shove");
+        SemTable() = SemanticTable();   // the other tests use the lexical backend
+    }
+    {   // "who dies next?": locking your guess, and the Monte Carlo forecast
+        Predictions pr;
+        check(pr.Pick(3) && pr.guess == 3, "guess: the first pick is accepted");
+        check(!pr.Pick(5) && pr.guess == 3, "guess: once picked it is locked: a second pick is refused and changes nothing");
+        pr.simGuess = 3; pr.Death(3);
+        check(pr.right == 1 && pr.simRight == 1 && pr.total == 1 && pr.guess == -1 && pr.simGuess == -1, "guess: a death scores you and the simulation, then both are cleared");
+        check(pr.Pick(5) && pr.guess == 5, "guess: after a death you can pick again");
+        pr.simGuess = 2; pr.Death(4);
+        check(pr.right == 1 && pr.simRight == 1 && pr.total == 2 && pr.SimLabel() == "Top of the list: 1/2", "guess: a wrong pick scores nothing and the simulation is shown on the same scale");
+
+        auto village = [](unsigned seed, Social& s, SocialView& v) {
+            SocialInit(s, 8, seed); unsigned x = seed * 977u + 1; for (int i = 0; i < 8; i++) { x ^= x << 13; x ^= x >> 17; x ^= x << 5; v.patience[i] = 0.15f + 0.8f * ((x & 255) / 255.0f); }
+            ScatterVillagers(s, v, s);
+        };
+        // a feud: villager 0 hates villager 1 and the two have already fought three times; 1 should be the favourite to die
+        Social fs; SocialView fv{}; village(11, fs, fv); fs.affinity[0][1] = -95; fs.clashes[0][1] = fs.clashes[1][0] = 3; fs.drama = false;
+        Forecaster ff; ff.Start(fs, fv, 5, 300); ff.Step(300);
+        int topPick = ForecastTopPick(ff.f);
+        check(ff.Done() && topPick == 1 && ff.f.ProbNext(1) > 0.20f, "forecast: with a three-fight feud against villager 1, villager 1 is the likeliest next death, at well over the 12.5% of a uniform guess");
+        float sum = 0; for (int i = 0; i < 8; i++) sum += ff.f.ProbNext(i);
+        check(fabsf(sum - 1.0f) < 1e-4f, "forecast: the chances of dying next add up to 100% (among futures where someone dies)");
+        Social ds = fs; ds.alive[1] = false; Forecaster fd; fd.Start(ds, fv, 5, 60); fd.Step(60);
+        check(fd.f.ProbNext(1) == 0.0f && fd.f.place[0][1] + fd.f.place[1][1] + fd.f.place[2][1] == 0, "forecast: a villager who is already dead is never predicted to die");
+        Forecaster f2; f2.Start(fs, fv, 5, 300); f2.Step(300);
+        bool same = true; for (int k = 0; k < FORECAST_DEATHS; k++) for (int i = 0; i < 8; i++) same = same && f2.f.place[k][i] == ff.f.place[k][i];
+        check(same && f2.f.rollouts == ff.f.rollouts, "forecast: the same village and seed give exactly the same forecast");
+        int ord[FORECAST_DEATHS]; ForecastOrder(ff.f, ord);
+        check(ord[0] == 1 && ord[1] != ord[0] && ord[2] != ord[0] && ord[2] != ord[1], "forecast: the likeliest order lists three different villagers, starting with the likeliest");
+        Forecaster sliced; sliced.Start(fs, fv, 5, 100); int steps = 0; while (!sliced.Done()) { sliced.Step(7); steps++; }
+        check(steps == 15 && sliced.f.rollouts == 100, "forecast: it can be run a few rollouts per frame and finishes after exactly the number asked for");
+
+        // How good is it? Warm up many random villages (so feuds exist), forecast each, then compare with what an INDEPENDENT simulated future did.
+        // Baselines: a uniform guess, and "pick whoever the others like least". 
+             auto benchmark = [&](int villages, int rollouts) {
+            int n = 0, topHit = 0, heurHit = 0; double probSum = 0, uniformProb = 0, ownTop = 0;
+            for (unsigned seed = 1; seed <= (unsigned)villages; seed++) {
+                Social s; SocialView v{}; village(seed, s, v); int warm[64]; Simulate(s, v, seed + 5000, 900, warm, 64);
+                int alive = 0; for (int i = 0; i < 8; i++) alive += s.alive[i];
+                if (alive < 3) continue;
+                int order[FORECAST_DEATHS]; if (Rollout(s, v, seed * 31u + 7u, order, 1) < 1) continue;       // the "real" future: someone dies in it
+                Forecaster fc; fc.Start(s, v, seed + 99u, rollouts); fc.Step(rollouts);
+                int victim = order[0], heur = -1; float worst = 1e9f, mx = 0;
+                for (int i = 0; i < 8; i++) if (s.alive[i]) { float sumAff = 0; for (int j = 0; j < 8; j++) if (j != i && s.alive[j]) sumAff += s.affinity[j][i]; if (sumAff < worst) { worst = sumAff; heur = i; } mx = std::max(mx, fc.f.ProbNext(i)); }
+                n++; topHit += ForecastTopPick(fc.f) == victim; heurHit += heur == victim; probSum += fc.f.ProbNext(victim); uniformProb += 1.0 / alive; ownTop += mx;
+            }
+            printf("      (forecast benchmark, %d villages x %d rollouts: top pick right %.1f%%, 'most disliked' rule %.1f%%, uniform guess %.1f%%; mean chance given to the real victim %.1f%% vs %.1f%% uniform%s)\n",
+                   n, rollouts, 100.0 * topHit / n, 100.0 * heurHit / n, 100.0 * uniformProb / n, 100.0 * probSum / n, 100.0 * uniformProb / n,
+                   rollouts < 150 ? "; calibration is only meaningful with many rollouts, see --big" : (std::string("; the forecast's own average top probability was ") + std::to_string(100.0 * ownTop / n).substr(0, 4) + "% against " + std::to_string(100.0 * topHit / n).substr(0, 4) + "% actually right").c_str());
+            return std::make_tuple(n, topHit / (double)n, probSum / n, uniformProb / n);
+        };
+        auto [nb, topRate, meanProb, uniform] = benchmark(120, 60);
+        check(nb >= 60, "forecast benchmark: enough villages produced a death to measure");
+        check(topRate > 1.25 * uniform, "forecast benchmark: the forecast's top pick beats a uniform guess by at least 25%");
+        check(meanProb > 1.2 * uniform, "forecast benchmark: the forecast gives the real victim at least 20% more probability than a uniform guess would");
+        if (bigRun) benchmark(400, 200);
+    }
+    {   // the typing safety net: a key press with no typed character is typed from the key itself
+        bool digits = true; for (int d = 0; d <= 9; d++) digits = digits && FallbackCharForKey(48 + d, false) == (char)('0' + d) && FallbackCharForKey(320 + d, false) == (char)('0' + d);
+        check(FallbackCharForKey(32, false) == ' ' && FallbackCharForKey(32, true) == ' ', "typing fallback: Space types a space");
+        check(digits, "typing fallback: the digits 0-9 (top row and number pad) type themselves");
+        check(FallbackCharForKey(44, false) == ',' && FallbackCharForKey(46, false) == '.' && FallbackCharForKey(47, true) == '?' && FallbackCharForKey(49, true) == '!', "typing fallback: , . ? ! (shift+/ and shift+1) type themselves");
+        check(FallbackCharForKey(47, false) == 0 && FallbackCharForKey(44, true) == 0 && FallbackCharForKey(50, true) == 0 && FallbackCharForKey(65, false) == 0 && FallbackCharForKey(0, false) == 0, "typing fallback: anything else (letters, other shifted digits, a plain slash) is left alone");
     }
     check(ShortHash("hello") == ShortHash("hello") && ShortHash("hello") != ShortHash("hellp") && ShortHash("hello").size() == 8, "ShortHash is stable, sensitive to changes, and 8 characters long");
 

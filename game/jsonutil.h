@@ -1,6 +1,5 @@
 // Tiny hand-written JSON readers. No library, no nesting support beyond what
-// this game's own config/dialogue files need. Deliberately dependency-free
-// (no raylib types) so tests.cpp can include this without linking graphics.
+// this game's own config/dialogue files need.
 #pragma once
 #include <string>
 #include <vector>
@@ -26,8 +25,8 @@ inline RGB JColor(const std::string& j, const char* key, RGB def) {
     return RGB{(unsigned char)r, (unsigned char)g, (unsigned char)b, 255};
 }
 
-// Finds the closing '{' matching the one at `start`, skipping over the
-// contents of string literals so a placeholder like {playerName} inside a
+// Finds the closing '{' matching the one at start, skipping over the
+// contents of string literals so a placeholder like playerName inside a
 // quoted string doesn't get mistaken for real JSON structure.
 inline size_t FindMatchingBrace(const std::string& j, size_t start) {
     int depth = 0;
@@ -78,7 +77,7 @@ inline std::vector<std::string> Split(const std::string& s, char sep) {
     return out;
 }
 
-// Replaces every occurrence of `from` in `s` with `to`.
+// Replaces every occurrence of from in s with to.
 inline std::string ReplaceAll(std::string s, const std::string& from, const std::string& to) {
     if (from.empty()) return s;
     size_t pos = 0;
@@ -89,7 +88,7 @@ inline std::string ReplaceAll(std::string s, const std::string& from, const std:
 // Replaces every occurrence of {playerName} with the given name.
 inline std::string FillName(const std::string& s, const std::string& name) { return ReplaceAll(s, "{playerName}", name); }
 
-// Raw text from the language model is "whatever came after the prompt": cut it at the first closing
+// Raw text from the language model is "whatever came after the prompt", cut it at the first closing
 // quote or line break (that's where the spoken line ends), trim it, and drop any half-finished
 // trailing sentence so the NPC doesn't stop mid-thought.
 inline std::string CleanGenerated(std::string s) {
@@ -112,10 +111,10 @@ inline std::string CleanGenerated(std::string s) {
     return s;
 }
 
-// A safety net over AI-generated text (see shell.html's AIDialogue object): rejects
+// A safety net over AI-generated text (see shell.html's AIDialogue object) - rejects
 // anything too short/long, stuck repeating one word, or containing a small blocklist
 // of words we never want a player to see. The caller falls back to a curated line
-// whenever this returns false. (There are no scripted fallback lines any more: the game just asks GPT-2 again.)
+// whenever this returns false.
 inline bool LooksUsable(const std::string& s) {
     if (s.size() < 3 || s.size() > 230) return false;
     int maxRun = 1, run = 1;
@@ -143,7 +142,7 @@ inline int CountWords(const std::string& s) {
 }
 
 // Does the line mention at least one of the keywords (case-insensitive)? Used to check a line is actually
-// about what the character was supposed to be talking about (their job, a friend, the human world...).
+// about what the character was supposed to be talking about (their job, a friend, the human world etc).
 inline bool MentionsAny(const std::string& line, const std::vector<std::string>& keywords) {
     std::string lower; for (char c : line) lower += (char)tolower((unsigned char)c);
     for (const std::string& k : keywords) {
@@ -153,8 +152,7 @@ inline bool MentionsAny(const std::string& line, const std::vector<std::string>&
     return false;
 }
 
-// The stricter check applied to the first few attempts at a line: long enough to say something, a real
-// question when the character is meant to ask one, and on topic. (The last attempt only needs LooksUsable.)
+// The stricter check applied to the first few attempts at a line
 inline bool LineIsGood(const std::string& line, bool needQuestion, const std::vector<std::string>& keywords) {
     if (CountWords(line) < 5) return false;
     if (needQuestion && line.find('?') == std::string::npos) return false;
@@ -177,4 +175,15 @@ inline std::vector<std::string> KeyWords(const std::string& text) {
     std::vector<std::string> out;
     for (const std::string& w : Split(text, ' ')) if (w.size() >= 3 && w != "the" && w != "player's" && w != "are" && w != "was" && w != "and") out.push_back(w);
     return out;
+}
+
+// Typing safety net. Some browsers hand the game a key PRESS but no typed CHARACTER for certain keys (the page used to cause this for Space).
+inline char FallbackCharForKey(int key, bool shift) {
+    if (key == 32) return ' ';
+    if (key >= 48 && key <= 57) return shift ? (key == 49 ? '!' : 0) : (char)('0' + (key - 48));   // shift+1 is "!"; the other shifted digits are symbols this does not cover
+    if (key >= 320 && key <= 329) return (char)('0' + (key - 320));                                // the number pad
+    if (key == 44 && !shift) return ',';
+    if (key == 46 && !shift) return '.';
+    if (key == 47 && shift) return '?';
+    return 0;
 }

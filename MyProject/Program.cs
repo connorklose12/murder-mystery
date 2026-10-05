@@ -1,4 +1,4 @@
-﻿var app = WebApplication.Create(args);
+var app = WebApplication.Create(args);
 app.UseDefaultFiles();
 app.UseStaticFiles(new StaticFileOptions
 {

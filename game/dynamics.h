@@ -1,7 +1,7 @@
-// Relationship "dynamics": turns the raw numbers the game stores (affinity, chemistry, fights, partner, crush, the event
+// Relationship "dynamics" turns the raw numbers the game stores (affinity, chemistry, fights, partner, crush, the event
 // history) into named relationships that dialogue can actually use - "best friends", "bitter rivals", "exes", "still hurt
 // by the cheating" - and the same for how each villager currently sees THE PLAYER ("skeptical", "has a crush on you",
-// "unsure", "thinks you're best friends"...). No raylib here, so tests.cpp can run it.
+// "unsure", "thinks you're best friends" etc). No raylib here, so tests.cpp can run it.
 //
 // Nothing new is stored for villager-to-villager dynamics: they are DERIVED from what social.h already saves, so they can
 // never drift out of sync with it. How a villager sees the player uses three saved numbers per villager (opinion, trust,
@@ -10,8 +10,8 @@
 #include <string>
 #include "social.h"
 
-// ============================ villager <-> villager ============================
-// One letter describing how `a` sees `b` (it can differ the other way round: a one-sided crush, a one-sided grudge).
+//  villager to villager 
+// One letter describing how a sees b (it can differ the other way round: a one-sided crush, a one-sided grudge).
 //   p dating   c secret crush   h still hurt (b cheated on a)   x exes   R bitter rivals (they have come to blows)
 //   e enemies  B best friends   f good friends   l friendly   d wary   n barely know each other
 inline char PairDynCode(const Social& s, int a, int b) {
@@ -54,11 +54,11 @@ inline int PairDynRank(char code) {
     switch (code) { case 'p': return 0; case 'c': return 1; case 'h': return 2; case 'x': return 3; case 'R': return 4; case 'e': return 5; case 'B': return 6; case 'f': return 7; default: return 99; }
 }
 
-// ============================ villager -> the player ============================
+// villager to the the player
 struct PlayerFeel {
-    float opinion = 0;     // -100 .. 100: how much they like you
-    float trust = 0;       // -100 .. 100: whether they believe you mean well (hitting them hurts this badly)
-    float romance = 0;     // 0 .. 100: how smitten they are
+    float opinion = 0;     // -100 to 100: how much they like you
+    float trust = 0;       // -100 to 100: whether they believe you mean well (hitting them hurts this badly)
+    float romance = 0;     
     int timesTalked = 0, timesHit = 0;
 };
 
@@ -76,7 +76,7 @@ inline char PlayerDynCode(const PlayerFeel& f) {
     return 'U';
 }
 
-// The sentence the AI is given (starts with a verb: "<Name> " + this) - the feeling AND how it should sound.
+// The sentence the AI is given (starts with a verb: "Name " + this)  the feeling AND how it should sound.
 inline const char* PlayerDynPhrase(char code) {
     switch (code) {
         case 'H': return "hates the player and is openly aggressive toward them (insults, threats, snarling)";
@@ -94,10 +94,8 @@ inline const char* PlayerDynPhrase(char code) {
 // Friends and admirers call you by a pet name (their own nickname for you); everyone else uses your actual name.
 inline bool UsesNickname(char code) { return code == 'K' || code == 'F' || code == 'C' || code == 'W'; }
 
-// ============================ verbal tic ============================
-// Tacks the speaker's tag ("..., mark my words.") onto the end of a sentence now and then. Done in code, so it costs nothing
-// and it reliably sounds like THEM. `roll` is a random number 0..1 (passed in so tests are repeatable).
-// Keeps a verbal tic a flavour instead of a catchphrase: it may appear at most once every few lines (call Ready once per line spoken).
+// verbal tic
+// Tacks the speaker's tag ("mark my words.") onto the end of a sentence now and then.
 struct TicGate {
     int since = 99;                                 // lines spoken since the tic was last used
     bool Ready(int gap) { return ++since >= gap; }

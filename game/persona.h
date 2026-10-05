@@ -1,9 +1,4 @@
-// Defined characters (see ARCHETYPES) with random but repeatable life details. Every new game rolls a seed; the same seed always produces the same cast
-// (the seed is saved with the game, so loading a save brings back the same people). No raylib here, so tests.cpp can run it.
-//
-// Each character gets: a job, a favorite food, a hobby, a dream, a fear, a view of the human world, a picture of what the
-// outside world is like, a way of speaking, an ongoing storyline ("premise"), and personality numbers. Values are drawn
-// WITHOUT replacement, so no two characters share a job, a hobby, a voice, and so on.
+// Defined characters (see ARCHETYPES) with random but repeatable life details. 
 #pragma once
 #include <cstdint>
 #include <string>
@@ -53,7 +48,7 @@ struct Archetype {
 };
 static const Archetype ARCHETYPES[] = {
     {"a performative pick-me emo e-boy who constantly puts himself down",
-     "talks like a moody emo guy: lowercase, 'ughh', sighs, trailing off..., constant self-deprecation ('ughh girls dont wanna date nice matcha lover guys like me, my life is meaningless'), brings up his badass lone werewolf persona and his sad emo playlist, uses MASCULINE slang only (bro, dude, poser, underground, nettspend, bruh, man, fr, twin, ngl, gng, lowkey) and never feminine slang (no bestie, tea), melodramatic",
+     "talks like a moody emo guy: lowercase, 'ughh', sighs, trailing off..., constant self-deprecation ('ughh girls dont wanna date nice matcha lover guys like me, my life is meaningless'), brings up his badass lone werewolf persona and his sad emo playlist, complains girls don't wanna date him, talks about matcha, uses MASCULINE slang only (bro, dude, poser, niche, underground, nettspend, bruh, man, fr, twin, ngl, gng, lowkey) and never feminine slang (no bestie, tea), melodramatic",
      "puts himself down after every compliment and quotes his sad playlist", ", ughh.", "bro", 0.50f, 0.50f, 0.30f, 0.95f},
     {"a grand, self-important polymath who adores their own wisdom", "speaks in flowery Renaissance English (thou, hark, verily, forsooth, 'tis)", "quotes philosophers who may not exist", ", verily.", "dear fellow", 0.90f, 0.60f, 0.80f, 0.30f},
     {"a pedantic, anime-obsessed discord moderator who corrects everyone and loves threatening people with mod powers",
@@ -61,12 +56,12 @@ static const Archetype ARCHETYPES[] = {
      "treats every disagreement like a rules violation", ", ermmm actually.", "user", 0.70f, 0.50f, 0.30f, 0.30f},
     {"a cocky, confident rapper with a big heart", "talks like a rapper (rhymes and slang: yo, fam, no cap, bussin')", "turns everyday things into freestyle bars", ", no cap.", "dawg", 0.50f, 0.70f, 0.30f, 0.50f},
     {"a chronically online, hyperactive chaotic kpop stan who treats every chat like a group chat, has insanely creative reads and insults",
-     "types like a chronically online person with intentionally bad grammar: uwu, haiii, u/ur/sry, endddd, xd rofl kek kek, etc., run-ons with no punctuation, whacky ASCII emoticons (>_< :3 OwO ^_^), blames 'my self diagnosed adhd kicking in' for tangents, calls people problematic for silly reasons, invites everyone to the furrycon; openings ramble in about a 35 word run-on, but isn't that repetitive with her dialogue vocab",
+     "types like a chronically online person with intentionally bad grammar: uwu, stan loona, haiii, u/ur/sry, endddd, xd rofl kek kek, etc., run-ons with no punctuation, whacky ASCII emoticons (>_< :3 OwO ^_^), blames 'my self diagnosed adhd' for tangents occasionally but not often, calls people problematic for silly reasons, invites everyone to the furrycon; openings ramble in about a 35 word run-on, but isn't that repetitive with her dialogue vocab",
      "talks about her yumeship, manhwa, etc.", ", kek kek.", "chile", 0.80f, 0.90f, 0.60f, 0.60f},
     {"an old fashioned dad who is permanently sick of everyone's BS", "talks like a grumpy old dad: calls people buster/pal/sport, mangles idioms ('hey buster u barking around the wrong horse'), grumbles about kids these days, taxes and gas prices, 'back in my day', sighs 'Lord give me strength'",
      "threatens to turn the car around", ", buster.", "sport", 0.30f, 0.35f, 0.25f, 0.20f},
     {"cool, precise and robotic, fascinated by human feelings", "speaks like a robot: stiff exact sentences, no contractions, cites percentages and exact numbers", "analyzes emotions like data and gets them slightly wrong", ", per my calculations.", "human", 0.95f, 0.40f, 0.80f, 0.40f},
-      {"a sassy, witty, girly glamour queen, loves drama, incredibly dumb, flirty with everyone and a total airhead", "talks like a sassy, over-the-top girly TikTok queen: period, ate, oop, LA, my hydroflasksksks, campf, fierce hunnie, lip filler, boots, mama, yass, slay, babes, quick witty clapbacks, along with other creative slang words, uses many creative puns, brags about how she looks today, dramatic gasps, flirts shamelessly, mixes up words, gets distracted",
+      {"a sassy, witty, girly glamour queen, loves drama, incredibly dumb, weird about star signs, flirty with everyone and a total airhead", "talks like a sassy, over-the-top girly TikTok queen: period, ate, oop, LA, my hydroflasksksks, campf, fierce hunnie, lip filler, boots, mama, yass, slay, babes, quick witty clapbacks, along with other creative slang words, uses many creative puns, brags about how she looks today, dramatic gasps, flirts shamelessly, mixes up words, gets distracted",
      "turns every compliment or insult into a clapback", ", period.", "babes", 0.70f, 0.80f, 0.20f, 0.90f},
 };
 template <class T, size_t N> constexpr size_t Count(const T (&)[N]) { return N; }

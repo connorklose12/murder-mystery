@@ -1,0 +1,79 @@
+{
+  "labeler": "standin",
+  "pairs": 3000,
+  "test_pairs": 444,
+  "results": {
+    "hand-written rule (word lists)": {
+      "rmse_delta": 3.672941351784081,
+      "mae_shove": 0.17935326565486917,
+      "within_3": 0.527027027027027,
+      "direction": 0.5825825825825826
+    },
+    "linear (state + message probe)": {
+      "rmse_delta": 2.6847137325338606,
+      "mae_shove": 0.09056379000392842,
+      "within_3": 0.740990990990991,
+      "direction": 0.8768768768768769
+    },
+    "old teacher-trained net (state only)": {
+      "rmse_delta": 2.980582502770645,
+      "mae_shove": 0.06681336996204718,
+      "within_3": 0.7252252252252253,
+      "direction": 0.8588588588588588
+    },
+    "retrained, state only (no message)": {
+      "rmse_delta": 2.986504886404438,
+      "mae_shove": 0.07310580292334412,
+      "within_3": 0.7342342342342343,
+      "direction": 0.8708708708708709
+    },
+    "MLP, state + raw embedding PCA-16 (overfits)": {
+      "rmse_delta": 3.0938785076141357,
+      "mae_shove": 0.06877931952476501,
+      "within_3": 0.6959459459459459,
+      "direction": 0.8618618618618619
+    },
+    "MLP 8 hidden, state + message probe": {
+      "rmse_delta": 2.6747909966716246,
+      "mae_shove": 0.06542982110397212,
+      "within_3": 0.7545045045045045,
+      "direction": 0.8738738738738738,
+      "params": 114
+    },
+    "MLP 16 hidden, state + message probe (shipped)": {
+      "rmse_delta": 2.609393100633707,
+      "mae_shove": 0.06739227659646388,
+      "within_3": 0.7680180180180181,
+      "direction": 0.8858858858858859,
+      "params": 226
+    },
+    "MLP 32 hidden, state + message probe": {
+      "rmse_delta": 2.5718059032920846,
+      "mae_shove": 0.06822647098630932,
+      "within_3": 0.7702702702702703,
+      "direction": 0.8918918918918919,
+      "params": 450
+    },
+    "(your labels vs themselves)": {
+      "rmse_delta": 0.0,
+      "mae_shove": 0.0,
+      "within_3": 1.0,
+      "direction": 1.0
+    }
+  },
+  "answer_menu_check": {
+    "shipped": {
+      "rmse_delta": 1.5749441080648134,
+      "mae_shove": 0.05271189937150959,
+      "within_3": 0.936,
+      "direction": 0.9543624161073826
+    },
+    "old": {
+      "rmse_delta": 2.0057244089602535,
+      "mae_shove": 0.06707424091307783,
+      "within_3": 0.871,
+      "direction": 0.9463087248322147
+    }
+  },
+  "seed": 42
+}

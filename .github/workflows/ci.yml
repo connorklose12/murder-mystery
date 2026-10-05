@@ -1,0 +1,137 @@
+# Continuous integration + deployment for Purple World.
+#
+#   every push and pull request:  C++ unit tests, ML-pipeline check, browser tests, and a real WebAssembly build
+#   push to main, only if ALL of those passed:  the build is published to the website (the gh-pages branch)
+#
+# One-time setup: in the repo go to Settings > Pages and set "Source" to "Deploy from a branch" with branch "gh-pages" (the same setup
+# `npx gh-pages` used). Settings > Actions > General > Workflow permissions must allow "Read and write" for the deploy job to push.
+name: CI and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unit-tests:
+    name: C++ unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check every game file was committed
+        run: |
+          for f in game/main.cpp game/shell.html game/config.json game/dialogue.json game/jsonutil.h game/npc_brain.h game/npc_brain_weights.h \
+                   game/npc_brain_parity.h game/social.h game/persona.h game/dynamics.h game/predictions.h game/memory.h game/mcts.h game/tests.cpp \
+                   game/build-web.sh game/assets/sounds/music.wav game/assets/embed.bin ml/data/labeled.jsonl; do
+            test -f "$f" || { echo "MISSING from the repo: $f (did you git add it?)"; exit 1; }
+          done
+
+      - name: Compile and run the unit tests
+        working-directory: game
+        run: |
+          g++ -std=c++17 -Wall tests.cpp -o tests
+          ./tests
+
+      - name: The headers must also compile under C++20
+        working-directory: game
+        run: g++ -std=c++20 -Wall -fsyntax-only tests.cpp
+
+  ml-pipeline:
+    name: NPC brain training pipeline
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: ml/requirements.txt
+      - run: pip install -r ml/requirements.txt
+      - name: Retrain (quick mode) and check the model still beats every baseline
+        run: python ml/pipeline.py train --quick
+      - name: Pipeline tests (a fake Gemini server, hand-check scoring, data steps)
+        run: python tests/test_pipeline.py
+
+  browser-tests:
+    name: Browser tests (Chromium)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: tests/requirements.txt
+      - run: pip install -r tests/requirements.txt
+      - run: playwright install --with-deps chromium
+      - name: AI client, audio engine, mobile layout and touch
+        run: |
+          for t in tests/browser/test_*.py; do
+            echo "=== $t ==="
+            python "$t" || exit 1
+          done
+
+  build-wasm:
+    name: Build WebAssembly
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mymindstorm/setup-emsdk@v14
+
+      - name: Download raylib for the web
+        run: |
+          curl -sL -o raylib.zip https://github.com/raysan5/raylib/releases/download/5.5/raylib-5.5_webassembly.zip
+          unzip -q raylib.zip
+          rm -rf game/raylib
+          mv raylib-5.5_webassembly game/raylib
+
+      - name: Build the game
+        working-directory: game
+        run: sh build-web.sh
+
+      - name: Report the build size
+        run: |
+          {
+            echo "### WebAssembly build"
+            echo ""
+            echo "| File | Size | Gzipped |"
+            echo "|---|---|---|"
+            for f in index.wasm index.js index.data index.html; do
+              p="MyProject/wwwroot/$f"
+              echo "| $f | $(stat -c%s "$p" | numfmt --to=iec) | $(gzip -9 -c "$p" | wc -c | numfmt --to=iec) |"
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wwwroot
+          path: MyProject/wwwroot
+          if-no-files-found: error
+
+  deploy:
+    name: Publish to the website
+    # Only a push to main, and only when every check above passed.
+    needs: [unit-tests, ml-pipeline, browser-tests, build-wasm]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: deploy
+      cancel-in-progress: false
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: wwwroot
+          path: wwwroot
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./wwwroot
+
+          
