@@ -77,7 +77,6 @@ To retrain the neural network, see `ml/README.md`.
  
 * The dialogue is meant to be genuinely funny, and I avoided having the characters saying things potentially offensive or talk about overly serious topics, but there's no guarantee they won't do that so beware.
 * The neural network was trained using simulated data rather than real player behavior.
-* The NPC memory test used a small, synthetic dataset, so real-world accuracy may differ.
-* The neural network was trained on scores from a stand-in for Gemini, not real Gemini scores, so its results only show how well it matches that stand-in. `ml/README.md` explains how to run it with real Gemini scores.
+* The NPC memory test used a small, synthetic dataset, so real world accuracy may differ.
 * The death forecast was only tested against the game's own simulation, not real play, and the user counter depends on a free outside service.
  
