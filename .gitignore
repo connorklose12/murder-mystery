@@ -1,0 +1,20 @@
+# .NET build output
+bin/
+obj/
+
+# Compiled web game (rebuild with game/build-web.bat)
+MyProject/wwwroot/
+
+# Editor/OS clutter
+.vs/
+.vscode/*
+!.vscode/c_cpp_properties.json
+*.user
+.DS_Store
+
+# raylib is downloaded fresh by the GitHub Actions build, so don't commit it
+game/raylib/
+
+# Compiled test binaries
+game/tests
+game/tests.exe
